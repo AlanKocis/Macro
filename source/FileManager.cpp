@@ -2,13 +2,11 @@
 
 FileManager::FileManager()
 {
-	fileStream.open(LOG_FILE_NAME);
+	fileStream.open(LOG_FILE_PATH, std::fstream::app);
 	if (!fileStream.is_open())
 	{
-		printf("critical error in FileManager.cpp :: couldn't open file stream\n");
-		exit(-1);
+		printf("critical error in FileManager.cpp :: failed to open std::fstream\n");
 	}
-
 }
 
 FileManager::~FileManager()
@@ -39,8 +37,7 @@ void FileManager::init_buffers(std::vector<Day> &days)
 		PARSE_MODES mode = NAME;
 		while (ss >> line)
 		{
-			float cal;
-			float protein;
+			float cal, protein, servings;
 
 
 			switch (mode)
@@ -56,7 +53,11 @@ void FileManager::init_buffers(std::vector<Day> &days)
 			case PROTEIN:
 				protein = std::stof(line);
 //				create and push/emplace objects
-				days[index].push_entry(Entry(name, cal, protein));
+				mode = SERVINGS;
+				break;
+			case SERVINGS:
+				servings = std::stof(line);
+				days[index].push_entry(Entry(name, cal, protein, servings));
 				mode = NAME;
 				break;
 			}
