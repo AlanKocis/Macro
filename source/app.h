@@ -16,9 +16,9 @@
 namespace app
 {
 	GLFWwindow *window;
-	const int WIDTH = 400;
-	const int HEIGHT = 500;
 	bool is_running = true;
+	const int INIT_HEIGHT = 500, INIT_WIDTH = 400;
+	std::string todays_date_global = "";
 	FileManager& fileManager = FileManager::instance();
 
 	std::vector<Day> days;
@@ -28,7 +28,7 @@ namespace app
 //		boilerplate
 		glfwInit();
 
-		window = glfwCreateWindow(WIDTH, HEIGHT, "Macro Log", NULL, NULL);
+		window = glfwCreateWindow(INIT_WIDTH, INIT_HEIGHT, "Macro Log", NULL, NULL);
 		if (!window)
 		{
 			printf("Couldn't create GLFW window\n");
@@ -53,14 +53,15 @@ namespace app
 		ss << std::put_time(&time_data, "%m%d%Y");
 		std::string todays_date;
 		ss >> todays_date;
+		todays_date_global = todays_date;
 
-//		check end of buffer only to check if application has been opened today
+
+//		check end of buffer only to test if application has been opened today
 		auto it = days.rbegin();
 		if (!(it->date == todays_date))
 		{
 			days.emplace_back(Day(todays_date));
 		}
-		
 
 //		init imgui
 		IMGUI_CHECKVERSION();
@@ -73,19 +74,19 @@ namespace app
 		ImGui_ImplOpenGL3_Init("#version 330");
 		ImGui_ImplGlfw_InitForOpenGL(window, true);
 
-
-
 		printf("finished initializing.\n");
 	}
 
 	void update_gui()
 	{
-//		GUI - LIST OF DATES W/ ENTRIES
+		int WIDTH = 0, HEIGHT = 0;
+		glfwGetWindowSize(window, &WIDTH, &HEIGHT);
 		ImGui::SetNextWindowSize(ImVec2(WIDTH, HEIGHT / 2));
 		ImGui::SetNextWindowPos(ImVec2(0, 0));
 		ImGui::Begin("1", 0, ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoTitleBar);
 		static ImVec4 color(1, 0, 0, 1);
 		ImGui::TextColored(color, "TEST\n\n");
+
 
 		for (Day &day : days)
 		{
@@ -110,7 +111,7 @@ namespace app
 
 		ImGui::Begin("2", 0, ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoTitleBar);
 
-
+		ImGui::Text(todays_date_global.c_str());
 
 
 
@@ -125,6 +126,7 @@ namespace app
 		ImGui_ImplOpenGL3_NewFrame();
 		ImGui_ImplGlfw_NewFrame(); 
 		ImGui::NewFrame();
+
 
 		update_gui();
 
