@@ -1,8 +1,8 @@
-# Install script for directory: C:/dev/Macro
+# Install script for directory: C:/dev/MacroLog
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/dev/Macro/out/install/x64-debug")
+  set(CMAKE_INSTALL_PREFIX "C:/dev/MacroLog/out/install/x64-debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/dev/Macro/out/build/x64-debug/glfw-3.3.8/cmake_install.cmake")
+  include("C:/dev/MacroLog/out/build/x64-debug/glfw-3.3.8/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/dev/Macro/out/build/x64-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/dev/MacroLog/out/build/x64-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

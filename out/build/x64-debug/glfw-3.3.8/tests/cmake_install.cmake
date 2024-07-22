@@ -1,8 +1,8 @@
-# Install script for directory: C:/dev/Macro/glfw-3.3.8/tests
+# Install script for directory: C:/dev/MacroLog/glfw-3.3.8/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/dev/Macro/out/install/x64-debug")
+  set(CMAKE_INSTALL_PREFIX "C:/dev/MacroLog/out/install/x64-debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

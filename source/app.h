@@ -115,6 +115,22 @@ namespace app
 
 
 
+		static bool gate = false;
+		if (ImGui::Button("Add Entry", ImVec2(90, 40)))		{gate = true; }
+
+		if (gate)
+		{
+			ImGui::PushItemWidth(64);
+			static char str[64];
+			str[63] = '\0';
+			ImGui::Text("test");	ImGui::SameLine();	ImGui::InputText("##label", str, IM_ARRAYSIZE(str));
+			ImGui::PopItemWidth();
+
+			ImGui::Text(str);
+
+			if (ImGui::Button("Cancel", ImVec2(80, 30)))		{ gate = false; }
+			
+		}
 
 
 

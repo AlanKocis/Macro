@@ -39,7 +39,7 @@ include CMakeFiles\rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:\dev\Macro\out\build\x64-debug\
+cmake_ninja_workdir = C$:\dev\MacroLog\out\build\x64-debug\
 # =============================================================================
 # Object build statements for EXECUTABLE target MacroLog
 
@@ -49,81 +49,81 @@ cmake_ninja_workdir = C$:\dev\Macro\out\build\x64-debug\
 
 build cmake_object_order_depends_target_MacroLog: phony || cmake_object_order_depends_target_GLAD cmake_object_order_depends_target_glfw
 
-build CMakeFiles\MacroLog.dir\imgui\imgui.cpp.obj: CXX_COMPILER__MacroLog_unscanned_Debug C$:\dev\Macro\imgui\imgui.cpp || cmake_object_order_depends_target_MacroLog
+build CMakeFiles\MacroLog.dir\imgui\imgui.cpp.obj: CXX_COMPILER__MacroLog_unscanned_Debug C$:\dev\MacroLog\imgui\imgui.cpp || cmake_object_order_depends_target_MacroLog
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\source -IC:\dev\Macro\glad -IC:\dev\Macro\imgui -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\source -IC:\dev\MacroLog\glad -IC:\dev\MacroLog\imgui -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = CMakeFiles\MacroLog.dir
   OBJECT_FILE_DIR = CMakeFiles\MacroLog.dir\imgui
   TARGET_COMPILE_PDB = CMakeFiles\MacroLog.dir\
   TARGET_PDB = MacroLog.pdb
 
-build CMakeFiles\MacroLog.dir\imgui\imgui_demo.cpp.obj: CXX_COMPILER__MacroLog_unscanned_Debug C$:\dev\Macro\imgui\imgui_demo.cpp || cmake_object_order_depends_target_MacroLog
+build CMakeFiles\MacroLog.dir\imgui\imgui_demo.cpp.obj: CXX_COMPILER__MacroLog_unscanned_Debug C$:\dev\MacroLog\imgui\imgui_demo.cpp || cmake_object_order_depends_target_MacroLog
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\source -IC:\dev\Macro\glad -IC:\dev\Macro\imgui -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\source -IC:\dev\MacroLog\glad -IC:\dev\MacroLog\imgui -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = CMakeFiles\MacroLog.dir
   OBJECT_FILE_DIR = CMakeFiles\MacroLog.dir\imgui
   TARGET_COMPILE_PDB = CMakeFiles\MacroLog.dir\
   TARGET_PDB = MacroLog.pdb
 
-build CMakeFiles\MacroLog.dir\imgui\imgui_draw.cpp.obj: CXX_COMPILER__MacroLog_unscanned_Debug C$:\dev\Macro\imgui\imgui_draw.cpp || cmake_object_order_depends_target_MacroLog
+build CMakeFiles\MacroLog.dir\imgui\imgui_draw.cpp.obj: CXX_COMPILER__MacroLog_unscanned_Debug C$:\dev\MacroLog\imgui\imgui_draw.cpp || cmake_object_order_depends_target_MacroLog
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\source -IC:\dev\Macro\glad -IC:\dev\Macro\imgui -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\source -IC:\dev\MacroLog\glad -IC:\dev\MacroLog\imgui -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = CMakeFiles\MacroLog.dir
   OBJECT_FILE_DIR = CMakeFiles\MacroLog.dir\imgui
   TARGET_COMPILE_PDB = CMakeFiles\MacroLog.dir\
   TARGET_PDB = MacroLog.pdb
 
-build CMakeFiles\MacroLog.dir\imgui\imgui_impl_glfw.cpp.obj: CXX_COMPILER__MacroLog_unscanned_Debug C$:\dev\Macro\imgui\imgui_impl_glfw.cpp || cmake_object_order_depends_target_MacroLog
+build CMakeFiles\MacroLog.dir\imgui\imgui_impl_glfw.cpp.obj: CXX_COMPILER__MacroLog_unscanned_Debug C$:\dev\MacroLog\imgui\imgui_impl_glfw.cpp || cmake_object_order_depends_target_MacroLog
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\source -IC:\dev\Macro\glad -IC:\dev\Macro\imgui -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\source -IC:\dev\MacroLog\glad -IC:\dev\MacroLog\imgui -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = CMakeFiles\MacroLog.dir
   OBJECT_FILE_DIR = CMakeFiles\MacroLog.dir\imgui
   TARGET_COMPILE_PDB = CMakeFiles\MacroLog.dir\
   TARGET_PDB = MacroLog.pdb
 
-build CMakeFiles\MacroLog.dir\imgui\imgui_impl_opengl3.cpp.obj: CXX_COMPILER__MacroLog_unscanned_Debug C$:\dev\Macro\imgui\imgui_impl_opengl3.cpp || cmake_object_order_depends_target_MacroLog
+build CMakeFiles\MacroLog.dir\imgui\imgui_impl_opengl3.cpp.obj: CXX_COMPILER__MacroLog_unscanned_Debug C$:\dev\MacroLog\imgui\imgui_impl_opengl3.cpp || cmake_object_order_depends_target_MacroLog
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\source -IC:\dev\Macro\glad -IC:\dev\Macro\imgui -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\source -IC:\dev\MacroLog\glad -IC:\dev\MacroLog\imgui -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = CMakeFiles\MacroLog.dir
   OBJECT_FILE_DIR = CMakeFiles\MacroLog.dir\imgui
   TARGET_COMPILE_PDB = CMakeFiles\MacroLog.dir\
   TARGET_PDB = MacroLog.pdb
 
-build CMakeFiles\MacroLog.dir\imgui\imgui_tables.cpp.obj: CXX_COMPILER__MacroLog_unscanned_Debug C$:\dev\Macro\imgui\imgui_tables.cpp || cmake_object_order_depends_target_MacroLog
+build CMakeFiles\MacroLog.dir\imgui\imgui_tables.cpp.obj: CXX_COMPILER__MacroLog_unscanned_Debug C$:\dev\MacroLog\imgui\imgui_tables.cpp || cmake_object_order_depends_target_MacroLog
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\source -IC:\dev\Macro\glad -IC:\dev\Macro\imgui -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\source -IC:\dev\MacroLog\glad -IC:\dev\MacroLog\imgui -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = CMakeFiles\MacroLog.dir
   OBJECT_FILE_DIR = CMakeFiles\MacroLog.dir\imgui
   TARGET_COMPILE_PDB = CMakeFiles\MacroLog.dir\
   TARGET_PDB = MacroLog.pdb
 
-build CMakeFiles\MacroLog.dir\imgui\imgui_widgets.cpp.obj: CXX_COMPILER__MacroLog_unscanned_Debug C$:\dev\Macro\imgui\imgui_widgets.cpp || cmake_object_order_depends_target_MacroLog
+build CMakeFiles\MacroLog.dir\imgui\imgui_widgets.cpp.obj: CXX_COMPILER__MacroLog_unscanned_Debug C$:\dev\MacroLog\imgui\imgui_widgets.cpp || cmake_object_order_depends_target_MacroLog
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\source -IC:\dev\Macro\glad -IC:\dev\Macro\imgui -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\source -IC:\dev\MacroLog\glad -IC:\dev\MacroLog\imgui -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = CMakeFiles\MacroLog.dir
   OBJECT_FILE_DIR = CMakeFiles\MacroLog.dir\imgui
   TARGET_COMPILE_PDB = CMakeFiles\MacroLog.dir\
   TARGET_PDB = MacroLog.pdb
 
-build CMakeFiles\MacroLog.dir\source\Day.cpp.obj: CXX_COMPILER__MacroLog_unscanned_Debug C$:\dev\Macro\source\Day.cpp || cmake_object_order_depends_target_MacroLog
+build CMakeFiles\MacroLog.dir\source\Day.cpp.obj: CXX_COMPILER__MacroLog_unscanned_Debug C$:\dev\MacroLog\source\Day.cpp || cmake_object_order_depends_target_MacroLog
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\source -IC:\dev\Macro\glad -IC:\dev\Macro\imgui -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\source -IC:\dev\MacroLog\glad -IC:\dev\MacroLog\imgui -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = CMakeFiles\MacroLog.dir
   OBJECT_FILE_DIR = CMakeFiles\MacroLog.dir\source
   TARGET_COMPILE_PDB = CMakeFiles\MacroLog.dir\
   TARGET_PDB = MacroLog.pdb
 
-build CMakeFiles\MacroLog.dir\source\FileManager.cpp.obj: CXX_COMPILER__MacroLog_unscanned_Debug C$:\dev\Macro\source\FileManager.cpp || cmake_object_order_depends_target_MacroLog
+build CMakeFiles\MacroLog.dir\source\FileManager.cpp.obj: CXX_COMPILER__MacroLog_unscanned_Debug C$:\dev\MacroLog\source\FileManager.cpp || cmake_object_order_depends_target_MacroLog
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\source -IC:\dev\Macro\glad -IC:\dev\Macro\imgui -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\source -IC:\dev\MacroLog\glad -IC:\dev\MacroLog\imgui -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = CMakeFiles\MacroLog.dir
   OBJECT_FILE_DIR = CMakeFiles\MacroLog.dir\source
   TARGET_COMPILE_PDB = CMakeFiles\MacroLog.dir\
   TARGET_PDB = MacroLog.pdb
 
-build CMakeFiles\MacroLog.dir\source\MacroLog.cpp.obj: CXX_COMPILER__MacroLog_unscanned_Debug C$:\dev\Macro\source\MacroLog.cpp || cmake_object_order_depends_target_MacroLog
+build CMakeFiles\MacroLog.dir\source\MacroLog.cpp.obj: CXX_COMPILER__MacroLog_unscanned_Debug C$:\dev\MacroLog\source\MacroLog.cpp || cmake_object_order_depends_target_MacroLog
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\source -IC:\dev\Macro\glad -IC:\dev\Macro\imgui -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\source -IC:\dev\MacroLog\glad -IC:\dev\MacroLog\imgui -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = CMakeFiles\MacroLog.dir
   OBJECT_FILE_DIR = CMakeFiles\MacroLog.dir\source
   TARGET_COMPILE_PDB = CMakeFiles\MacroLog.dir\
@@ -158,9 +158,9 @@ build MacroLog.exe: CXX_EXECUTABLE_LINKER__MacroLog_Debug CMakeFiles\MacroLog.di
 
 build cmake_object_order_depends_target_GLAD: phony || CMakeFiles\GLAD.dir
 
-build CMakeFiles\GLAD.dir\glad\glad.c.obj: C_COMPILER__GLAD_unscanned_Debug C$:\dev\Macro\glad\glad.c || cmake_object_order_depends_target_GLAD
+build CMakeFiles\GLAD.dir\glad\glad.c.obj: C_COMPILER__GLAD_unscanned_Debug C$:\dev\MacroLog\glad\glad.c || cmake_object_order_depends_target_GLAD
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\source -IC:\dev\Macro\glad -IC:\dev\Macro\imgui
+  INCLUDES = -IC:\dev\MacroLog\source -IC:\dev\MacroLog\glad -IC:\dev\MacroLog\imgui
   OBJECT_DIR = CMakeFiles\GLAD.dir
   OBJECT_FILE_DIR = CMakeFiles\GLAD.dir\glad
   TARGET_COMPILE_PDB = CMakeFiles\GLAD.dir\GLAD.pdb
@@ -189,7 +189,7 @@ build GLAD.lib: C_STATIC_LIBRARY_LINKER__GLAD_Debug CMakeFiles\GLAD.dir\glad\gla
 # Utility command for edit_cache
 
 build CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\Macro\out\build\x64-debug && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\dev\MacroLog\out\build\x64-debug && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -200,7 +200,7 @@ build edit_cache: phony CMakeFiles\edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\Macro\out\build\x64-debug && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\dev\Macro -BC:\dev\Macro\out\build\x64-debug"
+  COMMAND = cmd.exe /C "cd /D C:\dev\MacroLog\out\build\x64-debug && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\dev\MacroLog -BC:\dev\MacroLog\out\build\x64-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -218,7 +218,7 @@ build list_install_components: phony
 # Utility command for install
 
 build CMakeFiles\install.util: CUSTOM_COMMAND all
-  COMMAND = cmd.exe /C "cd /D C:\dev\Macro\out\build\x64-debug && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\dev\MacroLog\out\build\x64-debug && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -230,7 +230,7 @@ build install: phony CMakeFiles\install.util
 # Utility command for install/local
 
 build CMakeFiles\install\local.util: CUSTOM_COMMAND all
-  COMMAND = cmd.exe /C "cd /D C:\dev\Macro\out\build\x64-debug && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\dev\MacroLog\out\build\x64-debug && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -239,7 +239,7 @@ build install\local: phony CMakeFiles\install\local.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/dev/Macro/CMakeLists.txt
+# C:/dev/MacroLog/CMakeLists.txt
 # =============================================================================
 
 
@@ -253,7 +253,7 @@ build glfw-3.3.8\uninstall: phony glfw-3.3.8\CMakeFiles\uninstall
 # Utility command for edit_cache
 
 build glfw-3.3.8\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\Macro\out\build\x64-debug\glfw-3.3.8 && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8 && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -264,7 +264,7 @@ build glfw-3.3.8\edit_cache: phony glfw-3.3.8\CMakeFiles\edit_cache.util
 # Utility command for rebuild_cache
 
 build glfw-3.3.8\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\Macro\out\build\x64-debug\glfw-3.3.8 && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\dev\Macro -BC:\dev\Macro\out\build\x64-debug"
+  COMMAND = cmd.exe /C "cd /D C:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8 && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\dev\MacroLog -BC:\dev\MacroLog\out\build\x64-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -282,7 +282,7 @@ build glfw-3.3.8\list_install_components: phony
 # Utility command for install
 
 build glfw-3.3.8\CMakeFiles\install.util: CUSTOM_COMMAND glfw-3.3.8\all
-  COMMAND = cmd.exe /C "cd /D C:\dev\Macro\out\build\x64-debug\glfw-3.3.8 && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8 && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -294,7 +294,7 @@ build glfw-3.3.8\install: phony glfw-3.3.8\CMakeFiles\install.util
 # Utility command for install/local
 
 build glfw-3.3.8\CMakeFiles\install\local.util: CUSTOM_COMMAND glfw-3.3.8\all
-  COMMAND = cmd.exe /C "cd /D C:\dev\Macro\out\build\x64-debug\glfw-3.3.8 && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8 && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -306,11 +306,11 @@ build glfw-3.3.8\install\local: phony glfw-3.3.8\CMakeFiles\install\local.util
 # Custom command for glfw-3.3.8\CMakeFiles\uninstall
 
 build glfw-3.3.8\CMakeFiles\uninstall | ${cmake_ninja_workdir}glfw-3.3.8\CMakeFiles\uninstall: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\Macro\out\build\x64-debug\glfw-3.3.8 && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/dev/Macro/out/build/x64-debug/glfw-3.3.8/cmake_uninstall.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8 && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/dev/MacroLog/out/build/x64-debug/glfw-3.3.8/cmake_uninstall.cmake"
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/dev/Macro/glfw-3.3.8/CMakeLists.txt
+# C:/dev/MacroLog/glfw-3.3.8/CMakeLists.txt
 # =============================================================================
 
 
@@ -328,136 +328,136 @@ build glfw-3.3.8\src\update_mappings: phony glfw-3.3.8\src\CMakeFiles\update_map
 
 build cmake_object_order_depends_target_glfw: phony || glfw-3.3.8\src\CMakeFiles\glfw.dir
 
-build glfw-3.3.8\src\CMakeFiles\glfw.dir\context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\src\context.c || cmake_object_order_depends_target_glfw
+build glfw-3.3.8\src\CMakeFiles\glfw.dir\context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\src\context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\include -IC:\dev\Macro\glfw-3.3.8\src -IC:\dev\Macro\out\build\x64-debug\glfw-3.3.8\src
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\include -IC:\dev\MacroLog\glfw-3.3.8\src -IC:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\src
   OBJECT_DIR = glfw-3.3.8\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw-3.3.8\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = glfw-3.3.8\src\glfw3.pdb
 
-build glfw-3.3.8\src\CMakeFiles\glfw.dir\init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\src\init.c || cmake_object_order_depends_target_glfw
+build glfw-3.3.8\src\CMakeFiles\glfw.dir\init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\src\init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\include -IC:\dev\Macro\glfw-3.3.8\src -IC:\dev\Macro\out\build\x64-debug\glfw-3.3.8\src
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\include -IC:\dev\MacroLog\glfw-3.3.8\src -IC:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\src
   OBJECT_DIR = glfw-3.3.8\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw-3.3.8\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = glfw-3.3.8\src\glfw3.pdb
 
-build glfw-3.3.8\src\CMakeFiles\glfw.dir\input.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\src\input.c || cmake_object_order_depends_target_glfw
+build glfw-3.3.8\src\CMakeFiles\glfw.dir\input.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\src\input.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\include -IC:\dev\Macro\glfw-3.3.8\src -IC:\dev\Macro\out\build\x64-debug\glfw-3.3.8\src
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\include -IC:\dev\MacroLog\glfw-3.3.8\src -IC:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\src
   OBJECT_DIR = glfw-3.3.8\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw-3.3.8\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = glfw-3.3.8\src\glfw3.pdb
 
-build glfw-3.3.8\src\CMakeFiles\glfw.dir\monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\src\monitor.c || cmake_object_order_depends_target_glfw
+build glfw-3.3.8\src\CMakeFiles\glfw.dir\monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\src\monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\include -IC:\dev\Macro\glfw-3.3.8\src -IC:\dev\Macro\out\build\x64-debug\glfw-3.3.8\src
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\include -IC:\dev\MacroLog\glfw-3.3.8\src -IC:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\src
   OBJECT_DIR = glfw-3.3.8\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw-3.3.8\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = glfw-3.3.8\src\glfw3.pdb
 
-build glfw-3.3.8\src\CMakeFiles\glfw.dir\vulkan.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\src\vulkan.c || cmake_object_order_depends_target_glfw
+build glfw-3.3.8\src\CMakeFiles\glfw.dir\vulkan.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\src\vulkan.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\include -IC:\dev\Macro\glfw-3.3.8\src -IC:\dev\Macro\out\build\x64-debug\glfw-3.3.8\src
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\include -IC:\dev\MacroLog\glfw-3.3.8\src -IC:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\src
   OBJECT_DIR = glfw-3.3.8\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw-3.3.8\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = glfw-3.3.8\src\glfw3.pdb
 
-build glfw-3.3.8\src\CMakeFiles\glfw.dir\window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\src\window.c || cmake_object_order_depends_target_glfw
+build glfw-3.3.8\src\CMakeFiles\glfw.dir\window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\src\window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\include -IC:\dev\Macro\glfw-3.3.8\src -IC:\dev\Macro\out\build\x64-debug\glfw-3.3.8\src
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\include -IC:\dev\MacroLog\glfw-3.3.8\src -IC:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\src
   OBJECT_DIR = glfw-3.3.8\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw-3.3.8\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = glfw-3.3.8\src\glfw3.pdb
 
-build glfw-3.3.8\src\CMakeFiles\glfw.dir\win32_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\src\win32_init.c || cmake_object_order_depends_target_glfw
+build glfw-3.3.8\src\CMakeFiles\glfw.dir\win32_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\src\win32_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\include -IC:\dev\Macro\glfw-3.3.8\src -IC:\dev\Macro\out\build\x64-debug\glfw-3.3.8\src
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\include -IC:\dev\MacroLog\glfw-3.3.8\src -IC:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\src
   OBJECT_DIR = glfw-3.3.8\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw-3.3.8\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = glfw-3.3.8\src\glfw3.pdb
 
-build glfw-3.3.8\src\CMakeFiles\glfw.dir\win32_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\src\win32_joystick.c || cmake_object_order_depends_target_glfw
+build glfw-3.3.8\src\CMakeFiles\glfw.dir\win32_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\src\win32_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\include -IC:\dev\Macro\glfw-3.3.8\src -IC:\dev\Macro\out\build\x64-debug\glfw-3.3.8\src
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\include -IC:\dev\MacroLog\glfw-3.3.8\src -IC:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\src
   OBJECT_DIR = glfw-3.3.8\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw-3.3.8\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = glfw-3.3.8\src\glfw3.pdb
 
-build glfw-3.3.8\src\CMakeFiles\glfw.dir\win32_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\src\win32_monitor.c || cmake_object_order_depends_target_glfw
+build glfw-3.3.8\src\CMakeFiles\glfw.dir\win32_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\src\win32_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\include -IC:\dev\Macro\glfw-3.3.8\src -IC:\dev\Macro\out\build\x64-debug\glfw-3.3.8\src
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\include -IC:\dev\MacroLog\glfw-3.3.8\src -IC:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\src
   OBJECT_DIR = glfw-3.3.8\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw-3.3.8\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = glfw-3.3.8\src\glfw3.pdb
 
-build glfw-3.3.8\src\CMakeFiles\glfw.dir\win32_time.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\src\win32_time.c || cmake_object_order_depends_target_glfw
+build glfw-3.3.8\src\CMakeFiles\glfw.dir\win32_time.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\src\win32_time.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\include -IC:\dev\Macro\glfw-3.3.8\src -IC:\dev\Macro\out\build\x64-debug\glfw-3.3.8\src
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\include -IC:\dev\MacroLog\glfw-3.3.8\src -IC:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\src
   OBJECT_DIR = glfw-3.3.8\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw-3.3.8\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = glfw-3.3.8\src\glfw3.pdb
 
-build glfw-3.3.8\src\CMakeFiles\glfw.dir\win32_thread.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\src\win32_thread.c || cmake_object_order_depends_target_glfw
+build glfw-3.3.8\src\CMakeFiles\glfw.dir\win32_thread.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\src\win32_thread.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\include -IC:\dev\Macro\glfw-3.3.8\src -IC:\dev\Macro\out\build\x64-debug\glfw-3.3.8\src
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\include -IC:\dev\MacroLog\glfw-3.3.8\src -IC:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\src
   OBJECT_DIR = glfw-3.3.8\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw-3.3.8\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = glfw-3.3.8\src\glfw3.pdb
 
-build glfw-3.3.8\src\CMakeFiles\glfw.dir\win32_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\src\win32_window.c || cmake_object_order_depends_target_glfw
+build glfw-3.3.8\src\CMakeFiles\glfw.dir\win32_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\src\win32_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\include -IC:\dev\Macro\glfw-3.3.8\src -IC:\dev\Macro\out\build\x64-debug\glfw-3.3.8\src
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\include -IC:\dev\MacroLog\glfw-3.3.8\src -IC:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\src
   OBJECT_DIR = glfw-3.3.8\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw-3.3.8\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = glfw-3.3.8\src\glfw3.pdb
 
-build glfw-3.3.8\src\CMakeFiles\glfw.dir\wgl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\src\wgl_context.c || cmake_object_order_depends_target_glfw
+build glfw-3.3.8\src\CMakeFiles\glfw.dir\wgl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\src\wgl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\include -IC:\dev\Macro\glfw-3.3.8\src -IC:\dev\Macro\out\build\x64-debug\glfw-3.3.8\src
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\include -IC:\dev\MacroLog\glfw-3.3.8\src -IC:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\src
   OBJECT_DIR = glfw-3.3.8\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw-3.3.8\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = glfw-3.3.8\src\glfw3.pdb
 
-build glfw-3.3.8\src\CMakeFiles\glfw.dir\egl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\src\egl_context.c || cmake_object_order_depends_target_glfw
+build glfw-3.3.8\src\CMakeFiles\glfw.dir\egl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\src\egl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\include -IC:\dev\Macro\glfw-3.3.8\src -IC:\dev\Macro\out\build\x64-debug\glfw-3.3.8\src
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\include -IC:\dev\MacroLog\glfw-3.3.8\src -IC:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\src
   OBJECT_DIR = glfw-3.3.8\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw-3.3.8\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = glfw-3.3.8\src\glfw3.pdb
 
-build glfw-3.3.8\src\CMakeFiles\glfw.dir\osmesa_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\src\osmesa_context.c || cmake_object_order_depends_target_glfw
+build glfw-3.3.8\src\CMakeFiles\glfw.dir\osmesa_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\src\osmesa_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\include -IC:\dev\Macro\glfw-3.3.8\src -IC:\dev\Macro\out\build\x64-debug\glfw-3.3.8\src
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\include -IC:\dev\MacroLog\glfw-3.3.8\src -IC:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\src
   OBJECT_DIR = glfw-3.3.8\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw-3.3.8\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\src\CMakeFiles\glfw.dir\glfw.pdb
@@ -486,7 +486,7 @@ build glfw-3.3.8\src\glfw3.lib: C_STATIC_LIBRARY_LINKER__glfw_Debug glfw-3.3.8\s
 # Utility command for edit_cache
 
 build glfw-3.3.8\src\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\Macro\out\build\x64-debug\glfw-3.3.8\src && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\src && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -497,7 +497,7 @@ build glfw-3.3.8\src\edit_cache: phony glfw-3.3.8\src\CMakeFiles\edit_cache.util
 # Utility command for rebuild_cache
 
 build glfw-3.3.8\src\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\Macro\out\build\x64-debug\glfw-3.3.8\src && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\dev\Macro -BC:\dev\Macro\out\build\x64-debug"
+  COMMAND = cmd.exe /C "cd /D C:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\src && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\dev\MacroLog -BC:\dev\MacroLog\out\build\x64-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -515,7 +515,7 @@ build glfw-3.3.8\src\list_install_components: phony
 # Utility command for install
 
 build glfw-3.3.8\src\CMakeFiles\install.util: CUSTOM_COMMAND glfw-3.3.8\src\all
-  COMMAND = cmd.exe /C "cd /D C:\dev\Macro\out\build\x64-debug\glfw-3.3.8\src && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\src && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -527,7 +527,7 @@ build glfw-3.3.8\src\install: phony glfw-3.3.8\src\CMakeFiles\install.util
 # Utility command for install/local
 
 build glfw-3.3.8\src\CMakeFiles\install\local.util: CUSTOM_COMMAND glfw-3.3.8\src\all
-  COMMAND = cmd.exe /C "cd /D C:\dev\Macro\out\build\x64-debug\glfw-3.3.8\src && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\src && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -539,12 +539,12 @@ build glfw-3.3.8\src\install\local: phony glfw-3.3.8\src\CMakeFiles\install\loca
 # Custom command for glfw-3.3.8\src\CMakeFiles\update_mappings
 
 build glfw-3.3.8\src\CMakeFiles\update_mappings | ${cmake_ninja_workdir}glfw-3.3.8\src\CMakeFiles\update_mappings: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\Macro\glfw-3.3.8\src && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/dev/Macro/glfw-3.3.8/CMake/GenerateMappings.cmake mappings.h.in mappings.h"
+  COMMAND = cmd.exe /C "cd /D C:\dev\MacroLog\glfw-3.3.8\src && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/dev/MacroLog/glfw-3.3.8/CMake/GenerateMappings.cmake mappings.h.in mappings.h"
   DESC = Updating gamepad mappings from upstream repository
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/dev/Macro/glfw-3.3.8/CMakeLists.txt
+# C:/dev/MacroLog/glfw-3.3.8/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -556,29 +556,29 @@ build glfw-3.3.8\src\CMakeFiles\update_mappings | ${cmake_ninja_workdir}glfw-3.3
 
 build cmake_object_order_depends_target_boing: phony || cmake_object_order_depends_target_glfw
 
-build glfw-3.3.8\examples\CMakeFiles\boing.dir\boing.c.obj: C_COMPILER__boing_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\examples\boing.c || cmake_object_order_depends_target_boing
+build glfw-3.3.8\examples\CMakeFiles\boing.dir\boing.c.obj: C_COMPILER__boing_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\examples\boing.c || cmake_object_order_depends_target_boing
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\examples\CMakeFiles\boing.dir
   OBJECT_FILE_DIR = glfw-3.3.8\examples\CMakeFiles\boing.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\examples\CMakeFiles\boing.dir\
   TARGET_PDB = glfw-3.3.8\examples\boing.pdb
 
-build glfw-3.3.8\examples\CMakeFiles\boing.dir\glfw.rc.res: RC_COMPILER__boing_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\examples\glfw.rc || cmake_object_order_depends_target_boing
+build glfw-3.3.8\examples\CMakeFiles\boing.dir\glfw.rc.res: RC_COMPILER__boing_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\examples\glfw.rc || cmake_object_order_depends_target_boing
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = glfw-3.3.8\examples\CMakeFiles\boing.dir\glfw.rc.res.d
   FLAGS = -DWIN32 -D_DEBUG
-  INCLUDES = -I C:\dev\Macro\glfw-3.3.8\deps -I C:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -I C:\dev\MacroLog\glfw-3.3.8\deps -I C:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\examples\CMakeFiles\boing.dir
   OBJECT_FILE_DIR = glfw-3.3.8\examples\CMakeFiles\boing.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\examples\CMakeFiles\boing.dir\
   TARGET_PDB = glfw-3.3.8\examples\boing.pdb
 
-build glfw-3.3.8\examples\CMakeFiles\boing.dir\__\deps\glad_gl.c.obj: C_COMPILER__boing_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_boing
+build glfw-3.3.8\examples\CMakeFiles\boing.dir\__\deps\glad_gl.c.obj: C_COMPILER__boing_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_boing
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\examples\CMakeFiles\boing.dir
   OBJECT_FILE_DIR = glfw-3.3.8\examples\CMakeFiles\boing.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\examples\CMakeFiles\boing.dir\
@@ -613,29 +613,29 @@ build glfw-3.3.8\examples\boing.exe: C_EXECUTABLE_LINKER__boing_Debug glfw-3.3.8
 
 build cmake_object_order_depends_target_gears: phony || cmake_object_order_depends_target_glfw
 
-build glfw-3.3.8\examples\CMakeFiles\gears.dir\gears.c.obj: C_COMPILER__gears_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\examples\gears.c || cmake_object_order_depends_target_gears
+build glfw-3.3.8\examples\CMakeFiles\gears.dir\gears.c.obj: C_COMPILER__gears_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\examples\gears.c || cmake_object_order_depends_target_gears
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\examples\CMakeFiles\gears.dir
   OBJECT_FILE_DIR = glfw-3.3.8\examples\CMakeFiles\gears.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\examples\CMakeFiles\gears.dir\
   TARGET_PDB = glfw-3.3.8\examples\gears.pdb
 
-build glfw-3.3.8\examples\CMakeFiles\gears.dir\glfw.rc.res: RC_COMPILER__gears_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\examples\glfw.rc || cmake_object_order_depends_target_gears
+build glfw-3.3.8\examples\CMakeFiles\gears.dir\glfw.rc.res: RC_COMPILER__gears_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\examples\glfw.rc || cmake_object_order_depends_target_gears
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = glfw-3.3.8\examples\CMakeFiles\gears.dir\glfw.rc.res.d
   FLAGS = -DWIN32 -D_DEBUG
-  INCLUDES = -I C:\dev\Macro\glfw-3.3.8\deps -I C:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -I C:\dev\MacroLog\glfw-3.3.8\deps -I C:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\examples\CMakeFiles\gears.dir
   OBJECT_FILE_DIR = glfw-3.3.8\examples\CMakeFiles\gears.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\examples\CMakeFiles\gears.dir\
   TARGET_PDB = glfw-3.3.8\examples\gears.pdb
 
-build glfw-3.3.8\examples\CMakeFiles\gears.dir\__\deps\glad_gl.c.obj: C_COMPILER__gears_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_gears
+build glfw-3.3.8\examples\CMakeFiles\gears.dir\__\deps\glad_gl.c.obj: C_COMPILER__gears_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_gears
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\examples\CMakeFiles\gears.dir
   OBJECT_FILE_DIR = glfw-3.3.8\examples\CMakeFiles\gears.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\examples\CMakeFiles\gears.dir\
@@ -670,29 +670,29 @@ build glfw-3.3.8\examples\gears.exe: C_EXECUTABLE_LINKER__gears_Debug glfw-3.3.8
 
 build cmake_object_order_depends_target_heightmap: phony || cmake_object_order_depends_target_glfw
 
-build glfw-3.3.8\examples\CMakeFiles\heightmap.dir\heightmap.c.obj: C_COMPILER__heightmap_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\examples\heightmap.c || cmake_object_order_depends_target_heightmap
+build glfw-3.3.8\examples\CMakeFiles\heightmap.dir\heightmap.c.obj: C_COMPILER__heightmap_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\examples\heightmap.c || cmake_object_order_depends_target_heightmap
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\examples\CMakeFiles\heightmap.dir
   OBJECT_FILE_DIR = glfw-3.3.8\examples\CMakeFiles\heightmap.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\examples\CMakeFiles\heightmap.dir\
   TARGET_PDB = glfw-3.3.8\examples\heightmap.pdb
 
-build glfw-3.3.8\examples\CMakeFiles\heightmap.dir\glfw.rc.res: RC_COMPILER__heightmap_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\examples\glfw.rc || cmake_object_order_depends_target_heightmap
+build glfw-3.3.8\examples\CMakeFiles\heightmap.dir\glfw.rc.res: RC_COMPILER__heightmap_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\examples\glfw.rc || cmake_object_order_depends_target_heightmap
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = glfw-3.3.8\examples\CMakeFiles\heightmap.dir\glfw.rc.res.d
   FLAGS = -DWIN32 -D_DEBUG
-  INCLUDES = -I C:\dev\Macro\glfw-3.3.8\deps -I C:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -I C:\dev\MacroLog\glfw-3.3.8\deps -I C:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\examples\CMakeFiles\heightmap.dir
   OBJECT_FILE_DIR = glfw-3.3.8\examples\CMakeFiles\heightmap.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\examples\CMakeFiles\heightmap.dir\
   TARGET_PDB = glfw-3.3.8\examples\heightmap.pdb
 
-build glfw-3.3.8\examples\CMakeFiles\heightmap.dir\__\deps\glad_gl.c.obj: C_COMPILER__heightmap_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_heightmap
+build glfw-3.3.8\examples\CMakeFiles\heightmap.dir\__\deps\glad_gl.c.obj: C_COMPILER__heightmap_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_heightmap
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\examples\CMakeFiles\heightmap.dir
   OBJECT_FILE_DIR = glfw-3.3.8\examples\CMakeFiles\heightmap.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\examples\CMakeFiles\heightmap.dir\
@@ -727,29 +727,29 @@ build glfw-3.3.8\examples\heightmap.exe: C_EXECUTABLE_LINKER__heightmap_Debug gl
 
 build cmake_object_order_depends_target_offscreen: phony || cmake_object_order_depends_target_glfw
 
-build glfw-3.3.8\examples\CMakeFiles\offscreen.dir\offscreen.c.obj: C_COMPILER__offscreen_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\examples\offscreen.c || cmake_object_order_depends_target_offscreen
+build glfw-3.3.8\examples\CMakeFiles\offscreen.dir\offscreen.c.obj: C_COMPILER__offscreen_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\examples\offscreen.c || cmake_object_order_depends_target_offscreen
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\examples\CMakeFiles\offscreen.dir
   OBJECT_FILE_DIR = glfw-3.3.8\examples\CMakeFiles\offscreen.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\examples\CMakeFiles\offscreen.dir\
   TARGET_PDB = glfw-3.3.8\examples\offscreen.pdb
 
-build glfw-3.3.8\examples\CMakeFiles\offscreen.dir\glfw.rc.res: RC_COMPILER__offscreen_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\examples\glfw.rc || cmake_object_order_depends_target_offscreen
+build glfw-3.3.8\examples\CMakeFiles\offscreen.dir\glfw.rc.res: RC_COMPILER__offscreen_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\examples\glfw.rc || cmake_object_order_depends_target_offscreen
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = glfw-3.3.8\examples\CMakeFiles\offscreen.dir\glfw.rc.res.d
   FLAGS = -DWIN32 -D_DEBUG
-  INCLUDES = -I C:\dev\Macro\glfw-3.3.8\deps -I C:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -I C:\dev\MacroLog\glfw-3.3.8\deps -I C:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\examples\CMakeFiles\offscreen.dir
   OBJECT_FILE_DIR = glfw-3.3.8\examples\CMakeFiles\offscreen.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\examples\CMakeFiles\offscreen.dir\
   TARGET_PDB = glfw-3.3.8\examples\offscreen.pdb
 
-build glfw-3.3.8\examples\CMakeFiles\offscreen.dir\__\deps\glad_gl.c.obj: C_COMPILER__offscreen_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_offscreen
+build glfw-3.3.8\examples\CMakeFiles\offscreen.dir\__\deps\glad_gl.c.obj: C_COMPILER__offscreen_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_offscreen
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\examples\CMakeFiles\offscreen.dir
   OBJECT_FILE_DIR = glfw-3.3.8\examples\CMakeFiles\offscreen.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\examples\CMakeFiles\offscreen.dir\
@@ -784,47 +784,47 @@ build glfw-3.3.8\examples\offscreen.exe: C_EXECUTABLE_LINKER__offscreen_Debug gl
 
 build cmake_object_order_depends_target_particles: phony || cmake_object_order_depends_target_glfw
 
-build glfw-3.3.8\examples\CMakeFiles\particles.dir\particles.c.obj: C_COMPILER__particles_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\examples\particles.c || cmake_object_order_depends_target_particles
+build glfw-3.3.8\examples\CMakeFiles\particles.dir\particles.c.obj: C_COMPILER__particles_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\examples\particles.c || cmake_object_order_depends_target_particles
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\examples\CMakeFiles\particles.dir
   OBJECT_FILE_DIR = glfw-3.3.8\examples\CMakeFiles\particles.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\examples\CMakeFiles\particles.dir\
   TARGET_PDB = glfw-3.3.8\examples\particles.pdb
 
-build glfw-3.3.8\examples\CMakeFiles\particles.dir\glfw.rc.res: RC_COMPILER__particles_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\examples\glfw.rc || cmake_object_order_depends_target_particles
+build glfw-3.3.8\examples\CMakeFiles\particles.dir\glfw.rc.res: RC_COMPILER__particles_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\examples\glfw.rc || cmake_object_order_depends_target_particles
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = glfw-3.3.8\examples\CMakeFiles\particles.dir\glfw.rc.res.d
   FLAGS = -DWIN32 -D_DEBUG
-  INCLUDES = -I C:\dev\Macro\glfw-3.3.8\deps -I C:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -I C:\dev\MacroLog\glfw-3.3.8\deps -I C:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\examples\CMakeFiles\particles.dir
   OBJECT_FILE_DIR = glfw-3.3.8\examples\CMakeFiles\particles.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\examples\CMakeFiles\particles.dir\
   TARGET_PDB = glfw-3.3.8\examples\particles.pdb
 
-build glfw-3.3.8\examples\CMakeFiles\particles.dir\__\deps\tinycthread.c.obj: C_COMPILER__particles_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\tinycthread.c || cmake_object_order_depends_target_particles
+build glfw-3.3.8\examples\CMakeFiles\particles.dir\__\deps\tinycthread.c.obj: C_COMPILER__particles_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\tinycthread.c || cmake_object_order_depends_target_particles
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\examples\CMakeFiles\particles.dir
   OBJECT_FILE_DIR = glfw-3.3.8\examples\CMakeFiles\particles.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\examples\CMakeFiles\particles.dir\
   TARGET_PDB = glfw-3.3.8\examples\particles.pdb
 
-build glfw-3.3.8\examples\CMakeFiles\particles.dir\__\deps\getopt.c.obj: C_COMPILER__particles_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\getopt.c || cmake_object_order_depends_target_particles
+build glfw-3.3.8\examples\CMakeFiles\particles.dir\__\deps\getopt.c.obj: C_COMPILER__particles_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\getopt.c || cmake_object_order_depends_target_particles
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\examples\CMakeFiles\particles.dir
   OBJECT_FILE_DIR = glfw-3.3.8\examples\CMakeFiles\particles.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\examples\CMakeFiles\particles.dir\
   TARGET_PDB = glfw-3.3.8\examples\particles.pdb
 
-build glfw-3.3.8\examples\CMakeFiles\particles.dir\__\deps\glad_gl.c.obj: C_COMPILER__particles_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_particles
+build glfw-3.3.8\examples\CMakeFiles\particles.dir\__\deps\glad_gl.c.obj: C_COMPILER__particles_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_particles
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\examples\CMakeFiles\particles.dir
   OBJECT_FILE_DIR = glfw-3.3.8\examples\CMakeFiles\particles.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\examples\CMakeFiles\particles.dir\
@@ -859,29 +859,29 @@ build glfw-3.3.8\examples\particles.exe: C_EXECUTABLE_LINKER__particles_Debug gl
 
 build cmake_object_order_depends_target_sharing: phony || cmake_object_order_depends_target_glfw
 
-build glfw-3.3.8\examples\CMakeFiles\sharing.dir\sharing.c.obj: C_COMPILER__sharing_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\examples\sharing.c || cmake_object_order_depends_target_sharing
+build glfw-3.3.8\examples\CMakeFiles\sharing.dir\sharing.c.obj: C_COMPILER__sharing_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\examples\sharing.c || cmake_object_order_depends_target_sharing
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\examples\CMakeFiles\sharing.dir
   OBJECT_FILE_DIR = glfw-3.3.8\examples\CMakeFiles\sharing.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\examples\CMakeFiles\sharing.dir\
   TARGET_PDB = glfw-3.3.8\examples\sharing.pdb
 
-build glfw-3.3.8\examples\CMakeFiles\sharing.dir\glfw.rc.res: RC_COMPILER__sharing_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\examples\glfw.rc || cmake_object_order_depends_target_sharing
+build glfw-3.3.8\examples\CMakeFiles\sharing.dir\glfw.rc.res: RC_COMPILER__sharing_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\examples\glfw.rc || cmake_object_order_depends_target_sharing
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = glfw-3.3.8\examples\CMakeFiles\sharing.dir\glfw.rc.res.d
   FLAGS = -DWIN32 -D_DEBUG
-  INCLUDES = -I C:\dev\Macro\glfw-3.3.8\deps -I C:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -I C:\dev\MacroLog\glfw-3.3.8\deps -I C:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\examples\CMakeFiles\sharing.dir
   OBJECT_FILE_DIR = glfw-3.3.8\examples\CMakeFiles\sharing.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\examples\CMakeFiles\sharing.dir\
   TARGET_PDB = glfw-3.3.8\examples\sharing.pdb
 
-build glfw-3.3.8\examples\CMakeFiles\sharing.dir\__\deps\glad_gl.c.obj: C_COMPILER__sharing_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_sharing
+build glfw-3.3.8\examples\CMakeFiles\sharing.dir\__\deps\glad_gl.c.obj: C_COMPILER__sharing_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_sharing
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\examples\CMakeFiles\sharing.dir
   OBJECT_FILE_DIR = glfw-3.3.8\examples\CMakeFiles\sharing.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\examples\CMakeFiles\sharing.dir\
@@ -916,29 +916,29 @@ build glfw-3.3.8\examples\sharing.exe: C_EXECUTABLE_LINKER__sharing_Debug glfw-3
 
 build cmake_object_order_depends_target_simple: phony || cmake_object_order_depends_target_glfw
 
-build glfw-3.3.8\examples\CMakeFiles\simple.dir\simple.c.obj: C_COMPILER__simple_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\examples\simple.c || cmake_object_order_depends_target_simple
+build glfw-3.3.8\examples\CMakeFiles\simple.dir\simple.c.obj: C_COMPILER__simple_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\examples\simple.c || cmake_object_order_depends_target_simple
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\examples\CMakeFiles\simple.dir
   OBJECT_FILE_DIR = glfw-3.3.8\examples\CMakeFiles\simple.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\examples\CMakeFiles\simple.dir\
   TARGET_PDB = glfw-3.3.8\examples\simple.pdb
 
-build glfw-3.3.8\examples\CMakeFiles\simple.dir\glfw.rc.res: RC_COMPILER__simple_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\examples\glfw.rc || cmake_object_order_depends_target_simple
+build glfw-3.3.8\examples\CMakeFiles\simple.dir\glfw.rc.res: RC_COMPILER__simple_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\examples\glfw.rc || cmake_object_order_depends_target_simple
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = glfw-3.3.8\examples\CMakeFiles\simple.dir\glfw.rc.res.d
   FLAGS = -DWIN32 -D_DEBUG
-  INCLUDES = -I C:\dev\Macro\glfw-3.3.8\deps -I C:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -I C:\dev\MacroLog\glfw-3.3.8\deps -I C:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\examples\CMakeFiles\simple.dir
   OBJECT_FILE_DIR = glfw-3.3.8\examples\CMakeFiles\simple.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\examples\CMakeFiles\simple.dir\
   TARGET_PDB = glfw-3.3.8\examples\simple.pdb
 
-build glfw-3.3.8\examples\CMakeFiles\simple.dir\__\deps\glad_gl.c.obj: C_COMPILER__simple_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_simple
+build glfw-3.3.8\examples\CMakeFiles\simple.dir\__\deps\glad_gl.c.obj: C_COMPILER__simple_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_simple
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\examples\CMakeFiles\simple.dir
   OBJECT_FILE_DIR = glfw-3.3.8\examples\CMakeFiles\simple.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\examples\CMakeFiles\simple.dir\
@@ -973,29 +973,29 @@ build glfw-3.3.8\examples\simple.exe: C_EXECUTABLE_LINKER__simple_Debug glfw-3.3
 
 build cmake_object_order_depends_target_splitview: phony || cmake_object_order_depends_target_glfw
 
-build glfw-3.3.8\examples\CMakeFiles\splitview.dir\splitview.c.obj: C_COMPILER__splitview_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\examples\splitview.c || cmake_object_order_depends_target_splitview
+build glfw-3.3.8\examples\CMakeFiles\splitview.dir\splitview.c.obj: C_COMPILER__splitview_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\examples\splitview.c || cmake_object_order_depends_target_splitview
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\examples\CMakeFiles\splitview.dir
   OBJECT_FILE_DIR = glfw-3.3.8\examples\CMakeFiles\splitview.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\examples\CMakeFiles\splitview.dir\
   TARGET_PDB = glfw-3.3.8\examples\splitview.pdb
 
-build glfw-3.3.8\examples\CMakeFiles\splitview.dir\glfw.rc.res: RC_COMPILER__splitview_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\examples\glfw.rc || cmake_object_order_depends_target_splitview
+build glfw-3.3.8\examples\CMakeFiles\splitview.dir\glfw.rc.res: RC_COMPILER__splitview_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\examples\glfw.rc || cmake_object_order_depends_target_splitview
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = glfw-3.3.8\examples\CMakeFiles\splitview.dir\glfw.rc.res.d
   FLAGS = -DWIN32 -D_DEBUG
-  INCLUDES = -I C:\dev\Macro\glfw-3.3.8\deps -I C:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -I C:\dev\MacroLog\glfw-3.3.8\deps -I C:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\examples\CMakeFiles\splitview.dir
   OBJECT_FILE_DIR = glfw-3.3.8\examples\CMakeFiles\splitview.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\examples\CMakeFiles\splitview.dir\
   TARGET_PDB = glfw-3.3.8\examples\splitview.pdb
 
-build glfw-3.3.8\examples\CMakeFiles\splitview.dir\__\deps\glad_gl.c.obj: C_COMPILER__splitview_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_splitview
+build glfw-3.3.8\examples\CMakeFiles\splitview.dir\__\deps\glad_gl.c.obj: C_COMPILER__splitview_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_splitview
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\examples\CMakeFiles\splitview.dir
   OBJECT_FILE_DIR = glfw-3.3.8\examples\CMakeFiles\splitview.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\examples\CMakeFiles\splitview.dir\
@@ -1030,29 +1030,29 @@ build glfw-3.3.8\examples\splitview.exe: C_EXECUTABLE_LINKER__splitview_Debug gl
 
 build cmake_object_order_depends_target_wave: phony || cmake_object_order_depends_target_glfw
 
-build glfw-3.3.8\examples\CMakeFiles\wave.dir\wave.c.obj: C_COMPILER__wave_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\examples\wave.c || cmake_object_order_depends_target_wave
+build glfw-3.3.8\examples\CMakeFiles\wave.dir\wave.c.obj: C_COMPILER__wave_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\examples\wave.c || cmake_object_order_depends_target_wave
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\examples\CMakeFiles\wave.dir
   OBJECT_FILE_DIR = glfw-3.3.8\examples\CMakeFiles\wave.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\examples\CMakeFiles\wave.dir\
   TARGET_PDB = glfw-3.3.8\examples\wave.pdb
 
-build glfw-3.3.8\examples\CMakeFiles\wave.dir\glfw.rc.res: RC_COMPILER__wave_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\examples\glfw.rc || cmake_object_order_depends_target_wave
+build glfw-3.3.8\examples\CMakeFiles\wave.dir\glfw.rc.res: RC_COMPILER__wave_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\examples\glfw.rc || cmake_object_order_depends_target_wave
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = glfw-3.3.8\examples\CMakeFiles\wave.dir\glfw.rc.res.d
   FLAGS = -DWIN32 -D_DEBUG
-  INCLUDES = -I C:\dev\Macro\glfw-3.3.8\deps -I C:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -I C:\dev\MacroLog\glfw-3.3.8\deps -I C:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\examples\CMakeFiles\wave.dir
   OBJECT_FILE_DIR = glfw-3.3.8\examples\CMakeFiles\wave.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\examples\CMakeFiles\wave.dir\
   TARGET_PDB = glfw-3.3.8\examples\wave.pdb
 
-build glfw-3.3.8\examples\CMakeFiles\wave.dir\__\deps\glad_gl.c.obj: C_COMPILER__wave_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_wave
+build glfw-3.3.8\examples\CMakeFiles\wave.dir\__\deps\glad_gl.c.obj: C_COMPILER__wave_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_wave
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\examples\CMakeFiles\wave.dir
   OBJECT_FILE_DIR = glfw-3.3.8\examples\CMakeFiles\wave.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\examples\CMakeFiles\wave.dir\
@@ -1083,7 +1083,7 @@ build glfw-3.3.8\examples\wave.exe: C_EXECUTABLE_LINKER__wave_Debug glfw-3.3.8\e
 # Utility command for edit_cache
 
 build glfw-3.3.8\examples\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\Macro\out\build\x64-debug\glfw-3.3.8\examples && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\examples && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1094,7 +1094,7 @@ build glfw-3.3.8\examples\edit_cache: phony glfw-3.3.8\examples\CMakeFiles\edit_
 # Utility command for rebuild_cache
 
 build glfw-3.3.8\examples\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\Macro\out\build\x64-debug\glfw-3.3.8\examples && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\dev\Macro -BC:\dev\Macro\out\build\x64-debug"
+  COMMAND = cmd.exe /C "cd /D C:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\examples && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\dev\MacroLog -BC:\dev\MacroLog\out\build\x64-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1112,7 +1112,7 @@ build glfw-3.3.8\examples\list_install_components: phony
 # Utility command for install
 
 build glfw-3.3.8\examples\CMakeFiles\install.util: CUSTOM_COMMAND glfw-3.3.8\examples\all
-  COMMAND = cmd.exe /C "cd /D C:\dev\Macro\out\build\x64-debug\glfw-3.3.8\examples && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\examples && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -1124,7 +1124,7 @@ build glfw-3.3.8\examples\install: phony glfw-3.3.8\examples\CMakeFiles\install.
 # Utility command for install/local
 
 build glfw-3.3.8\examples\CMakeFiles\install\local.util: CUSTOM_COMMAND glfw-3.3.8\examples\all
-  COMMAND = cmd.exe /C "cd /D C:\dev\Macro\out\build\x64-debug\glfw-3.3.8\examples && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\examples && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -1133,7 +1133,7 @@ build glfw-3.3.8\examples\install\local: phony glfw-3.3.8\examples\CMakeFiles\in
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/dev/Macro/glfw-3.3.8/CMakeLists.txt
+# C:/dev/MacroLog/glfw-3.3.8/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -1145,28 +1145,28 @@ build glfw-3.3.8\examples\install\local: phony glfw-3.3.8\examples\CMakeFiles\in
 
 build cmake_object_order_depends_target_clipboard: phony || cmake_object_order_depends_target_glfw
 
-build glfw-3.3.8\tests\CMakeFiles\clipboard.dir\clipboard.c.obj: C_COMPILER__clipboard_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\tests\clipboard.c || cmake_object_order_depends_target_clipboard
+build glfw-3.3.8\tests\CMakeFiles\clipboard.dir\clipboard.c.obj: C_COMPILER__clipboard_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\tests\clipboard.c || cmake_object_order_depends_target_clipboard
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\clipboard.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\clipboard.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\clipboard.dir\
   TARGET_PDB = glfw-3.3.8\tests\clipboard.pdb
 
-build glfw-3.3.8\tests\CMakeFiles\clipboard.dir\__\deps\getopt.c.obj: C_COMPILER__clipboard_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\getopt.c || cmake_object_order_depends_target_clipboard
+build glfw-3.3.8\tests\CMakeFiles\clipboard.dir\__\deps\getopt.c.obj: C_COMPILER__clipboard_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\getopt.c || cmake_object_order_depends_target_clipboard
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\clipboard.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\clipboard.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\clipboard.dir\
   TARGET_PDB = glfw-3.3.8\tests\clipboard.pdb
 
-build glfw-3.3.8\tests\CMakeFiles\clipboard.dir\__\deps\glad_gl.c.obj: C_COMPILER__clipboard_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_clipboard
+build glfw-3.3.8\tests\CMakeFiles\clipboard.dir\__\deps\glad_gl.c.obj: C_COMPILER__clipboard_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_clipboard
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\clipboard.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\clipboard.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\clipboard.dir\
@@ -1201,28 +1201,28 @@ build glfw-3.3.8\tests\clipboard.exe: C_EXECUTABLE_LINKER__clipboard_Debug glfw-
 
 build cmake_object_order_depends_target_events: phony || cmake_object_order_depends_target_glfw
 
-build glfw-3.3.8\tests\CMakeFiles\events.dir\events.c.obj: C_COMPILER__events_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\tests\events.c || cmake_object_order_depends_target_events
+build glfw-3.3.8\tests\CMakeFiles\events.dir\events.c.obj: C_COMPILER__events_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\tests\events.c || cmake_object_order_depends_target_events
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\events.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\events.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\events.dir\
   TARGET_PDB = glfw-3.3.8\tests\events.pdb
 
-build glfw-3.3.8\tests\CMakeFiles\events.dir\__\deps\getopt.c.obj: C_COMPILER__events_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\getopt.c || cmake_object_order_depends_target_events
+build glfw-3.3.8\tests\CMakeFiles\events.dir\__\deps\getopt.c.obj: C_COMPILER__events_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\getopt.c || cmake_object_order_depends_target_events
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\events.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\events.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\events.dir\
   TARGET_PDB = glfw-3.3.8\tests\events.pdb
 
-build glfw-3.3.8\tests\CMakeFiles\events.dir\__\deps\glad_gl.c.obj: C_COMPILER__events_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_events
+build glfw-3.3.8\tests\CMakeFiles\events.dir\__\deps\glad_gl.c.obj: C_COMPILER__events_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_events
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\events.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\events.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\events.dir\
@@ -1257,28 +1257,28 @@ build glfw-3.3.8\tests\events.exe: C_EXECUTABLE_LINKER__events_Debug glfw-3.3.8\
 
 build cmake_object_order_depends_target_msaa: phony || cmake_object_order_depends_target_glfw
 
-build glfw-3.3.8\tests\CMakeFiles\msaa.dir\msaa.c.obj: C_COMPILER__msaa_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\tests\msaa.c || cmake_object_order_depends_target_msaa
+build glfw-3.3.8\tests\CMakeFiles\msaa.dir\msaa.c.obj: C_COMPILER__msaa_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\tests\msaa.c || cmake_object_order_depends_target_msaa
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\msaa.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\msaa.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\msaa.dir\
   TARGET_PDB = glfw-3.3.8\tests\msaa.pdb
 
-build glfw-3.3.8\tests\CMakeFiles\msaa.dir\__\deps\getopt.c.obj: C_COMPILER__msaa_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\getopt.c || cmake_object_order_depends_target_msaa
+build glfw-3.3.8\tests\CMakeFiles\msaa.dir\__\deps\getopt.c.obj: C_COMPILER__msaa_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\getopt.c || cmake_object_order_depends_target_msaa
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\msaa.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\msaa.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\msaa.dir\
   TARGET_PDB = glfw-3.3.8\tests\msaa.pdb
 
-build glfw-3.3.8\tests\CMakeFiles\msaa.dir\__\deps\glad_gl.c.obj: C_COMPILER__msaa_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_msaa
+build glfw-3.3.8\tests\CMakeFiles\msaa.dir\__\deps\glad_gl.c.obj: C_COMPILER__msaa_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_msaa
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\msaa.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\msaa.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\msaa.dir\
@@ -1313,37 +1313,37 @@ build glfw-3.3.8\tests\msaa.exe: C_EXECUTABLE_LINKER__msaa_Debug glfw-3.3.8\test
 
 build cmake_object_order_depends_target_glfwinfo: phony || cmake_object_order_depends_target_glfw
 
-build glfw-3.3.8\tests\CMakeFiles\glfwinfo.dir\glfwinfo.c.obj: C_COMPILER__glfwinfo_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\tests\glfwinfo.c || cmake_object_order_depends_target_glfwinfo
+build glfw-3.3.8\tests\CMakeFiles\glfwinfo.dir\glfwinfo.c.obj: C_COMPILER__glfwinfo_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\tests\glfwinfo.c || cmake_object_order_depends_target_glfwinfo
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\glfwinfo.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\glfwinfo.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\glfwinfo.dir\
   TARGET_PDB = glfw-3.3.8\tests\glfwinfo.pdb
 
-build glfw-3.3.8\tests\CMakeFiles\glfwinfo.dir\__\deps\getopt.c.obj: C_COMPILER__glfwinfo_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\getopt.c || cmake_object_order_depends_target_glfwinfo
+build glfw-3.3.8\tests\CMakeFiles\glfwinfo.dir\__\deps\getopt.c.obj: C_COMPILER__glfwinfo_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\getopt.c || cmake_object_order_depends_target_glfwinfo
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\glfwinfo.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\glfwinfo.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\glfwinfo.dir\
   TARGET_PDB = glfw-3.3.8\tests\glfwinfo.pdb
 
-build glfw-3.3.8\tests\CMakeFiles\glfwinfo.dir\__\deps\glad_gl.c.obj: C_COMPILER__glfwinfo_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_glfwinfo
+build glfw-3.3.8\tests\CMakeFiles\glfwinfo.dir\__\deps\glad_gl.c.obj: C_COMPILER__glfwinfo_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_glfwinfo
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\glfwinfo.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\glfwinfo.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\glfwinfo.dir\
   TARGET_PDB = glfw-3.3.8\tests\glfwinfo.pdb
 
-build glfw-3.3.8\tests\CMakeFiles\glfwinfo.dir\__\deps\glad_vulkan.c.obj: C_COMPILER__glfwinfo_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\glad_vulkan.c || cmake_object_order_depends_target_glfwinfo
+build glfw-3.3.8\tests\CMakeFiles\glfwinfo.dir\__\deps\glad_vulkan.c.obj: C_COMPILER__glfwinfo_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\glad_vulkan.c || cmake_object_order_depends_target_glfwinfo
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\glfwinfo.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\glfwinfo.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\glfwinfo.dir\
@@ -1378,28 +1378,28 @@ build glfw-3.3.8\tests\glfwinfo.exe: C_EXECUTABLE_LINKER__glfwinfo_Debug glfw-3.
 
 build cmake_object_order_depends_target_iconify: phony || cmake_object_order_depends_target_glfw
 
-build glfw-3.3.8\tests\CMakeFiles\iconify.dir\iconify.c.obj: C_COMPILER__iconify_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\tests\iconify.c || cmake_object_order_depends_target_iconify
+build glfw-3.3.8\tests\CMakeFiles\iconify.dir\iconify.c.obj: C_COMPILER__iconify_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\tests\iconify.c || cmake_object_order_depends_target_iconify
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\iconify.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\iconify.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\iconify.dir\
   TARGET_PDB = glfw-3.3.8\tests\iconify.pdb
 
-build glfw-3.3.8\tests\CMakeFiles\iconify.dir\__\deps\getopt.c.obj: C_COMPILER__iconify_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\getopt.c || cmake_object_order_depends_target_iconify
+build glfw-3.3.8\tests\CMakeFiles\iconify.dir\__\deps\getopt.c.obj: C_COMPILER__iconify_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\getopt.c || cmake_object_order_depends_target_iconify
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\iconify.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\iconify.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\iconify.dir\
   TARGET_PDB = glfw-3.3.8\tests\iconify.pdb
 
-build glfw-3.3.8\tests\CMakeFiles\iconify.dir\__\deps\glad_gl.c.obj: C_COMPILER__iconify_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_iconify
+build glfw-3.3.8\tests\CMakeFiles\iconify.dir\__\deps\glad_gl.c.obj: C_COMPILER__iconify_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_iconify
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\iconify.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\iconify.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\iconify.dir\
@@ -1434,28 +1434,28 @@ build glfw-3.3.8\tests\iconify.exe: C_EXECUTABLE_LINKER__iconify_Debug glfw-3.3.
 
 build cmake_object_order_depends_target_monitors: phony || cmake_object_order_depends_target_glfw
 
-build glfw-3.3.8\tests\CMakeFiles\monitors.dir\monitors.c.obj: C_COMPILER__monitors_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\tests\monitors.c || cmake_object_order_depends_target_monitors
+build glfw-3.3.8\tests\CMakeFiles\monitors.dir\monitors.c.obj: C_COMPILER__monitors_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\tests\monitors.c || cmake_object_order_depends_target_monitors
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\monitors.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\monitors.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\monitors.dir\
   TARGET_PDB = glfw-3.3.8\tests\monitors.pdb
 
-build glfw-3.3.8\tests\CMakeFiles\monitors.dir\__\deps\getopt.c.obj: C_COMPILER__monitors_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\getopt.c || cmake_object_order_depends_target_monitors
+build glfw-3.3.8\tests\CMakeFiles\monitors.dir\__\deps\getopt.c.obj: C_COMPILER__monitors_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\getopt.c || cmake_object_order_depends_target_monitors
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\monitors.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\monitors.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\monitors.dir\
   TARGET_PDB = glfw-3.3.8\tests\monitors.pdb
 
-build glfw-3.3.8\tests\CMakeFiles\monitors.dir\__\deps\glad_gl.c.obj: C_COMPILER__monitors_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_monitors
+build glfw-3.3.8\tests\CMakeFiles\monitors.dir\__\deps\glad_gl.c.obj: C_COMPILER__monitors_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_monitors
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\monitors.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\monitors.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\monitors.dir\
@@ -1490,19 +1490,19 @@ build glfw-3.3.8\tests\monitors.exe: C_EXECUTABLE_LINKER__monitors_Debug glfw-3.
 
 build cmake_object_order_depends_target_reopen: phony || cmake_object_order_depends_target_glfw
 
-build glfw-3.3.8\tests\CMakeFiles\reopen.dir\reopen.c.obj: C_COMPILER__reopen_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\tests\reopen.c || cmake_object_order_depends_target_reopen
+build glfw-3.3.8\tests\CMakeFiles\reopen.dir\reopen.c.obj: C_COMPILER__reopen_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\tests\reopen.c || cmake_object_order_depends_target_reopen
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\reopen.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\reopen.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\reopen.dir\
   TARGET_PDB = glfw-3.3.8\tests\reopen.pdb
 
-build glfw-3.3.8\tests\CMakeFiles\reopen.dir\__\deps\glad_gl.c.obj: C_COMPILER__reopen_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_reopen
+build glfw-3.3.8\tests\CMakeFiles\reopen.dir\__\deps\glad_gl.c.obj: C_COMPILER__reopen_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_reopen
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\reopen.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\reopen.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\reopen.dir\
@@ -1537,19 +1537,19 @@ build glfw-3.3.8\tests\reopen.exe: C_EXECUTABLE_LINKER__reopen_Debug glfw-3.3.8\
 
 build cmake_object_order_depends_target_cursor: phony || cmake_object_order_depends_target_glfw
 
-build glfw-3.3.8\tests\CMakeFiles\cursor.dir\cursor.c.obj: C_COMPILER__cursor_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\tests\cursor.c || cmake_object_order_depends_target_cursor
+build glfw-3.3.8\tests\CMakeFiles\cursor.dir\cursor.c.obj: C_COMPILER__cursor_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\tests\cursor.c || cmake_object_order_depends_target_cursor
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\cursor.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\cursor.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\cursor.dir\
   TARGET_PDB = glfw-3.3.8\tests\cursor.pdb
 
-build glfw-3.3.8\tests\CMakeFiles\cursor.dir\__\deps\glad_gl.c.obj: C_COMPILER__cursor_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_cursor
+build glfw-3.3.8\tests\CMakeFiles\cursor.dir\__\deps\glad_gl.c.obj: C_COMPILER__cursor_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_cursor
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\cursor.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\cursor.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\cursor.dir\
@@ -1584,28 +1584,28 @@ build glfw-3.3.8\tests\cursor.exe: C_EXECUTABLE_LINKER__cursor_Debug glfw-3.3.8\
 
 build cmake_object_order_depends_target_empty: phony || cmake_object_order_depends_target_glfw
 
-build glfw-3.3.8\tests\CMakeFiles\empty.dir\empty.c.obj: C_COMPILER__empty_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\tests\empty.c || cmake_object_order_depends_target_empty
+build glfw-3.3.8\tests\CMakeFiles\empty.dir\empty.c.obj: C_COMPILER__empty_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\tests\empty.c || cmake_object_order_depends_target_empty
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\empty.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\empty.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\empty.dir\
   TARGET_PDB = glfw-3.3.8\tests\empty.pdb
 
-build glfw-3.3.8\tests\CMakeFiles\empty.dir\__\deps\tinycthread.c.obj: C_COMPILER__empty_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\tinycthread.c || cmake_object_order_depends_target_empty
+build glfw-3.3.8\tests\CMakeFiles\empty.dir\__\deps\tinycthread.c.obj: C_COMPILER__empty_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\tinycthread.c || cmake_object_order_depends_target_empty
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\empty.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\empty.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\empty.dir\
   TARGET_PDB = glfw-3.3.8\tests\empty.pdb
 
-build glfw-3.3.8\tests\CMakeFiles\empty.dir\__\deps\glad_gl.c.obj: C_COMPILER__empty_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_empty
+build glfw-3.3.8\tests\CMakeFiles\empty.dir\__\deps\glad_gl.c.obj: C_COMPILER__empty_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_empty
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\empty.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\empty.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\empty.dir\
@@ -1640,19 +1640,19 @@ build glfw-3.3.8\tests\empty.exe: C_EXECUTABLE_LINKER__empty_Debug glfw-3.3.8\te
 
 build cmake_object_order_depends_target_gamma: phony || cmake_object_order_depends_target_glfw
 
-build glfw-3.3.8\tests\CMakeFiles\gamma.dir\gamma.c.obj: C_COMPILER__gamma_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\tests\gamma.c || cmake_object_order_depends_target_gamma
+build glfw-3.3.8\tests\CMakeFiles\gamma.dir\gamma.c.obj: C_COMPILER__gamma_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\tests\gamma.c || cmake_object_order_depends_target_gamma
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\gamma.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\gamma.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\gamma.dir\
   TARGET_PDB = glfw-3.3.8\tests\gamma.pdb
 
-build glfw-3.3.8\tests\CMakeFiles\gamma.dir\__\deps\glad_gl.c.obj: C_COMPILER__gamma_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_gamma
+build glfw-3.3.8\tests\CMakeFiles\gamma.dir\__\deps\glad_gl.c.obj: C_COMPILER__gamma_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_gamma
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\gamma.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\gamma.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\gamma.dir\
@@ -1687,19 +1687,19 @@ build glfw-3.3.8\tests\gamma.exe: C_EXECUTABLE_LINKER__gamma_Debug glfw-3.3.8\te
 
 build cmake_object_order_depends_target_icon: phony || cmake_object_order_depends_target_glfw
 
-build glfw-3.3.8\tests\CMakeFiles\icon.dir\icon.c.obj: C_COMPILER__icon_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\tests\icon.c || cmake_object_order_depends_target_icon
+build glfw-3.3.8\tests\CMakeFiles\icon.dir\icon.c.obj: C_COMPILER__icon_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\tests\icon.c || cmake_object_order_depends_target_icon
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\icon.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\icon.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\icon.dir\
   TARGET_PDB = glfw-3.3.8\tests\icon.pdb
 
-build glfw-3.3.8\tests\CMakeFiles\icon.dir\__\deps\glad_gl.c.obj: C_COMPILER__icon_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_icon
+build glfw-3.3.8\tests\CMakeFiles\icon.dir\__\deps\glad_gl.c.obj: C_COMPILER__icon_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_icon
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\icon.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\icon.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\icon.dir\
@@ -1734,28 +1734,28 @@ build glfw-3.3.8\tests\icon.exe: C_EXECUTABLE_LINKER__icon_Debug glfw-3.3.8\test
 
 build cmake_object_order_depends_target_inputlag: phony || cmake_object_order_depends_target_glfw
 
-build glfw-3.3.8\tests\CMakeFiles\inputlag.dir\inputlag.c.obj: C_COMPILER__inputlag_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\tests\inputlag.c || cmake_object_order_depends_target_inputlag
+build glfw-3.3.8\tests\CMakeFiles\inputlag.dir\inputlag.c.obj: C_COMPILER__inputlag_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\tests\inputlag.c || cmake_object_order_depends_target_inputlag
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\inputlag.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\inputlag.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\inputlag.dir\
   TARGET_PDB = glfw-3.3.8\tests\inputlag.pdb
 
-build glfw-3.3.8\tests\CMakeFiles\inputlag.dir\__\deps\getopt.c.obj: C_COMPILER__inputlag_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\getopt.c || cmake_object_order_depends_target_inputlag
+build glfw-3.3.8\tests\CMakeFiles\inputlag.dir\__\deps\getopt.c.obj: C_COMPILER__inputlag_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\getopt.c || cmake_object_order_depends_target_inputlag
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\inputlag.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\inputlag.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\inputlag.dir\
   TARGET_PDB = glfw-3.3.8\tests\inputlag.pdb
 
-build glfw-3.3.8\tests\CMakeFiles\inputlag.dir\__\deps\glad_gl.c.obj: C_COMPILER__inputlag_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_inputlag
+build glfw-3.3.8\tests\CMakeFiles\inputlag.dir\__\deps\glad_gl.c.obj: C_COMPILER__inputlag_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_inputlag
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\inputlag.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\inputlag.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\inputlag.dir\
@@ -1790,19 +1790,19 @@ build glfw-3.3.8\tests\inputlag.exe: C_EXECUTABLE_LINKER__inputlag_Debug glfw-3.
 
 build cmake_object_order_depends_target_joysticks: phony || cmake_object_order_depends_target_glfw
 
-build glfw-3.3.8\tests\CMakeFiles\joysticks.dir\joysticks.c.obj: C_COMPILER__joysticks_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\tests\joysticks.c || cmake_object_order_depends_target_joysticks
+build glfw-3.3.8\tests\CMakeFiles\joysticks.dir\joysticks.c.obj: C_COMPILER__joysticks_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\tests\joysticks.c || cmake_object_order_depends_target_joysticks
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\joysticks.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\joysticks.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\joysticks.dir\
   TARGET_PDB = glfw-3.3.8\tests\joysticks.pdb
 
-build glfw-3.3.8\tests\CMakeFiles\joysticks.dir\__\deps\glad_gl.c.obj: C_COMPILER__joysticks_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_joysticks
+build glfw-3.3.8\tests\CMakeFiles\joysticks.dir\__\deps\glad_gl.c.obj: C_COMPILER__joysticks_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_joysticks
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\joysticks.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\joysticks.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\joysticks.dir\
@@ -1837,19 +1837,19 @@ build glfw-3.3.8\tests\joysticks.exe: C_EXECUTABLE_LINKER__joysticks_Debug glfw-
 
 build cmake_object_order_depends_target_opacity: phony || cmake_object_order_depends_target_glfw
 
-build glfw-3.3.8\tests\CMakeFiles\opacity.dir\opacity.c.obj: C_COMPILER__opacity_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\tests\opacity.c || cmake_object_order_depends_target_opacity
+build glfw-3.3.8\tests\CMakeFiles\opacity.dir\opacity.c.obj: C_COMPILER__opacity_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\tests\opacity.c || cmake_object_order_depends_target_opacity
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\opacity.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\opacity.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\opacity.dir\
   TARGET_PDB = glfw-3.3.8\tests\opacity.pdb
 
-build glfw-3.3.8\tests\CMakeFiles\opacity.dir\__\deps\glad_gl.c.obj: C_COMPILER__opacity_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_opacity
+build glfw-3.3.8\tests\CMakeFiles\opacity.dir\__\deps\glad_gl.c.obj: C_COMPILER__opacity_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_opacity
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\opacity.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\opacity.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\opacity.dir\
@@ -1884,19 +1884,19 @@ build glfw-3.3.8\tests\opacity.exe: C_EXECUTABLE_LINKER__opacity_Debug glfw-3.3.
 
 build cmake_object_order_depends_target_tearing: phony || cmake_object_order_depends_target_glfw
 
-build glfw-3.3.8\tests\CMakeFiles\tearing.dir\tearing.c.obj: C_COMPILER__tearing_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\tests\tearing.c || cmake_object_order_depends_target_tearing
+build glfw-3.3.8\tests\CMakeFiles\tearing.dir\tearing.c.obj: C_COMPILER__tearing_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\tests\tearing.c || cmake_object_order_depends_target_tearing
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\tearing.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\tearing.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\tearing.dir\
   TARGET_PDB = glfw-3.3.8\tests\tearing.pdb
 
-build glfw-3.3.8\tests\CMakeFiles\tearing.dir\__\deps\glad_gl.c.obj: C_COMPILER__tearing_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_tearing
+build glfw-3.3.8\tests\CMakeFiles\tearing.dir\__\deps\glad_gl.c.obj: C_COMPILER__tearing_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_tearing
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\tearing.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\tearing.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\tearing.dir\
@@ -1931,28 +1931,28 @@ build glfw-3.3.8\tests\tearing.exe: C_EXECUTABLE_LINKER__tearing_Debug glfw-3.3.
 
 build cmake_object_order_depends_target_threads: phony || cmake_object_order_depends_target_glfw
 
-build glfw-3.3.8\tests\CMakeFiles\threads.dir\threads.c.obj: C_COMPILER__threads_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\tests\threads.c || cmake_object_order_depends_target_threads
+build glfw-3.3.8\tests\CMakeFiles\threads.dir\threads.c.obj: C_COMPILER__threads_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\tests\threads.c || cmake_object_order_depends_target_threads
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\threads.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\threads.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\threads.dir\
   TARGET_PDB = glfw-3.3.8\tests\threads.pdb
 
-build glfw-3.3.8\tests\CMakeFiles\threads.dir\__\deps\tinycthread.c.obj: C_COMPILER__threads_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\tinycthread.c || cmake_object_order_depends_target_threads
+build glfw-3.3.8\tests\CMakeFiles\threads.dir\__\deps\tinycthread.c.obj: C_COMPILER__threads_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\tinycthread.c || cmake_object_order_depends_target_threads
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\threads.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\threads.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\threads.dir\
   TARGET_PDB = glfw-3.3.8\tests\threads.pdb
 
-build glfw-3.3.8\tests\CMakeFiles\threads.dir\__\deps\glad_gl.c.obj: C_COMPILER__threads_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_threads
+build glfw-3.3.8\tests\CMakeFiles\threads.dir\__\deps\glad_gl.c.obj: C_COMPILER__threads_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_threads
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\threads.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\threads.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\threads.dir\
@@ -1987,19 +1987,19 @@ build glfw-3.3.8\tests\threads.exe: C_EXECUTABLE_LINKER__threads_Debug glfw-3.3.
 
 build cmake_object_order_depends_target_timeout: phony || cmake_object_order_depends_target_glfw
 
-build glfw-3.3.8\tests\CMakeFiles\timeout.dir\timeout.c.obj: C_COMPILER__timeout_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\tests\timeout.c || cmake_object_order_depends_target_timeout
+build glfw-3.3.8\tests\CMakeFiles\timeout.dir\timeout.c.obj: C_COMPILER__timeout_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\tests\timeout.c || cmake_object_order_depends_target_timeout
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\timeout.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\timeout.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\timeout.dir\
   TARGET_PDB = glfw-3.3.8\tests\timeout.pdb
 
-build glfw-3.3.8\tests\CMakeFiles\timeout.dir\__\deps\glad_gl.c.obj: C_COMPILER__timeout_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_timeout
+build glfw-3.3.8\tests\CMakeFiles\timeout.dir\__\deps\glad_gl.c.obj: C_COMPILER__timeout_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_timeout
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\timeout.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\timeout.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\timeout.dir\
@@ -2034,19 +2034,19 @@ build glfw-3.3.8\tests\timeout.exe: C_EXECUTABLE_LINKER__timeout_Debug glfw-3.3.
 
 build cmake_object_order_depends_target_title: phony || cmake_object_order_depends_target_glfw
 
-build glfw-3.3.8\tests\CMakeFiles\title.dir\title.c.obj: C_COMPILER__title_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\tests\title.c || cmake_object_order_depends_target_title
+build glfw-3.3.8\tests\CMakeFiles\title.dir\title.c.obj: C_COMPILER__title_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\tests\title.c || cmake_object_order_depends_target_title
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\title.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\title.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\title.dir\
   TARGET_PDB = glfw-3.3.8\tests\title.pdb
 
-build glfw-3.3.8\tests\CMakeFiles\title.dir\__\deps\glad_gl.c.obj: C_COMPILER__title_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_title
+build glfw-3.3.8\tests\CMakeFiles\title.dir\__\deps\glad_gl.c.obj: C_COMPILER__title_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_title
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\title.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\title.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\title.dir\
@@ -2081,19 +2081,19 @@ build glfw-3.3.8\tests\title.exe: C_EXECUTABLE_LINKER__title_Debug glfw-3.3.8\te
 
 build cmake_object_order_depends_target_triangle-vulkan: phony || cmake_object_order_depends_target_glfw
 
-build glfw-3.3.8\tests\CMakeFiles\triangle-vulkan.dir\triangle-vulkan.c.obj: C_COMPILER__triangle-vulkan_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\tests\triangle-vulkan.c || cmake_object_order_depends_target_triangle-vulkan
+build glfw-3.3.8\tests\CMakeFiles\triangle-vulkan.dir\triangle-vulkan.c.obj: C_COMPILER__triangle-vulkan_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\tests\triangle-vulkan.c || cmake_object_order_depends_target_triangle-vulkan
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\triangle-vulkan.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\triangle-vulkan.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\triangle-vulkan.dir\
   TARGET_PDB = glfw-3.3.8\tests\triangle-vulkan.pdb
 
-build glfw-3.3.8\tests\CMakeFiles\triangle-vulkan.dir\__\deps\glad_vulkan.c.obj: C_COMPILER__triangle-vulkan_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\glad_vulkan.c || cmake_object_order_depends_target_triangle-vulkan
+build glfw-3.3.8\tests\CMakeFiles\triangle-vulkan.dir\__\deps\glad_vulkan.c.obj: C_COMPILER__triangle-vulkan_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\glad_vulkan.c || cmake_object_order_depends_target_triangle-vulkan
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\triangle-vulkan.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\triangle-vulkan.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\triangle-vulkan.dir\
@@ -2128,28 +2128,28 @@ build glfw-3.3.8\tests\triangle-vulkan.exe: C_EXECUTABLE_LINKER__triangle-vulkan
 
 build cmake_object_order_depends_target_windows: phony || cmake_object_order_depends_target_glfw
 
-build glfw-3.3.8\tests\CMakeFiles\windows.dir\windows.c.obj: C_COMPILER__windows_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\tests\windows.c || cmake_object_order_depends_target_windows
+build glfw-3.3.8\tests\CMakeFiles\windows.dir\windows.c.obj: C_COMPILER__windows_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\tests\windows.c || cmake_object_order_depends_target_windows
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\windows.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\windows.dir
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\windows.dir\
   TARGET_PDB = glfw-3.3.8\tests\windows.pdb
 
-build glfw-3.3.8\tests\CMakeFiles\windows.dir\__\deps\getopt.c.obj: C_COMPILER__windows_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\getopt.c || cmake_object_order_depends_target_windows
+build glfw-3.3.8\tests\CMakeFiles\windows.dir\__\deps\getopt.c.obj: C_COMPILER__windows_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\getopt.c || cmake_object_order_depends_target_windows
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\windows.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\windows.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\windows.dir\
   TARGET_PDB = glfw-3.3.8\tests\windows.pdb
 
-build glfw-3.3.8\tests\CMakeFiles\windows.dir\__\deps\glad_gl.c.obj: C_COMPILER__windows_unscanned_Debug C$:\dev\Macro\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_windows
+build glfw-3.3.8\tests\CMakeFiles\windows.dir\__\deps\glad_gl.c.obj: C_COMPILER__windows_unscanned_Debug C$:\dev\MacroLog\glfw-3.3.8\deps\glad_gl.c || cmake_object_order_depends_target_windows
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -IC:\dev\Macro\glfw-3.3.8\deps -IC:\dev\Macro\glfw-3.3.8\include
+  INCLUDES = -IC:\dev\MacroLog\glfw-3.3.8\deps -IC:\dev\MacroLog\glfw-3.3.8\include
   OBJECT_DIR = glfw-3.3.8\tests\CMakeFiles\windows.dir
   OBJECT_FILE_DIR = glfw-3.3.8\tests\CMakeFiles\windows.dir\__\deps
   TARGET_COMPILE_PDB = glfw-3.3.8\tests\CMakeFiles\windows.dir\
@@ -2180,7 +2180,7 @@ build glfw-3.3.8\tests\windows.exe: C_EXECUTABLE_LINKER__windows_Debug glfw-3.3.
 # Utility command for edit_cache
 
 build glfw-3.3.8\tests\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\Macro\out\build\x64-debug\glfw-3.3.8\tests && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\tests && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -2191,7 +2191,7 @@ build glfw-3.3.8\tests\edit_cache: phony glfw-3.3.8\tests\CMakeFiles\edit_cache.
 # Utility command for rebuild_cache
 
 build glfw-3.3.8\tests\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\dev\Macro\out\build\x64-debug\glfw-3.3.8\tests && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\dev\Macro -BC:\dev\Macro\out\build\x64-debug"
+  COMMAND = cmd.exe /C "cd /D C:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\tests && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\dev\MacroLog -BC:\dev\MacroLog\out\build\x64-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -2209,7 +2209,7 @@ build glfw-3.3.8\tests\list_install_components: phony
 # Utility command for install
 
 build glfw-3.3.8\tests\CMakeFiles\install.util: CUSTOM_COMMAND glfw-3.3.8\tests\all
-  COMMAND = cmd.exe /C "cd /D C:\dev\Macro\out\build\x64-debug\glfw-3.3.8\tests && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\tests && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -2221,12 +2221,84 @@ build glfw-3.3.8\tests\install: phony glfw-3.3.8\tests\CMakeFiles\install.util
 # Utility command for install/local
 
 build glfw-3.3.8\tests\CMakeFiles\install\local.util: CUSTOM_COMMAND glfw-3.3.8\tests\all
-  COMMAND = cmd.exe /C "cd /D C:\dev\Macro\out\build\x64-debug\glfw-3.3.8\tests && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\tests && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
 
 build glfw-3.3.8\tests\install\local: phony glfw-3.3.8\tests\CMakeFiles\install\local.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/dev/MacroLog/glfw-3.3.8/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for docs
+
+build glfw-3.3.8\docs\docs: phony glfw-3.3.8\docs\CMakeFiles\docs
+
+
+#############################################
+# Utility command for edit_cache
+
+build glfw-3.3.8\docs\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\docs && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build glfw-3.3.8\docs\edit_cache: phony glfw-3.3.8\docs\CMakeFiles\edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build glfw-3.3.8\docs\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\docs && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\dev\MacroLog -BC:\dev\MacroLog\out\build\x64-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build glfw-3.3.8\docs\rebuild_cache: phony glfw-3.3.8\docs\CMakeFiles\rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build glfw-3.3.8\docs\list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build glfw-3.3.8\docs\CMakeFiles\install.util: CUSTOM_COMMAND glfw-3.3.8\docs\all
+  COMMAND = cmd.exe /C "cd /D C:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\docs && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build glfw-3.3.8\docs\install: phony glfw-3.3.8\docs\CMakeFiles\install.util
+
+
+#############################################
+# Utility command for install/local
+
+build glfw-3.3.8\docs\CMakeFiles\install\local.util: CUSTOM_COMMAND glfw-3.3.8\docs\all
+  COMMAND = cmd.exe /C "cd /D C:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\docs && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build glfw-3.3.8\docs\install\local: phony glfw-3.3.8\docs\CMakeFiles\install\local.util
+
+
+#############################################
+# Custom command for glfw-3.3.8\docs\CMakeFiles\docs
+
+build glfw-3.3.8\docs\CMakeFiles\docs | ${cmake_ninja_workdir}glfw-3.3.8\docs\CMakeFiles\docs: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\dev\MacroLog\out\build\x64-debug\glfw-3.3.8\docs && C:\mingw64\bin\doxygen.exe"
+  DESC = Generating HTML documentation
 
 # =============================================================================
 # Target aliases.
@@ -2246,6 +2318,8 @@ build clipboard.exe: phony glfw-3.3.8\tests\clipboard.exe
 build cursor: phony glfw-3.3.8\tests\cursor.exe
 
 build cursor.exe: phony glfw-3.3.8\tests\cursor.exe
+
+build docs: phony glfw-3.3.8\docs\docs
 
 build empty: phony glfw-3.3.8\tests\empty.exe
 
@@ -2365,35 +2439,42 @@ build windows.exe: phony glfw-3.3.8\tests\windows.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/dev/Macro/out/build/x64-debug
+# Folder: C:/dev/MacroLog/out/build/x64-debug
 
 build all: phony MacroLog.exe GLAD.lib glfw-3.3.8\all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/dev/Macro/out/build/x64-debug/glfw-3.3.8
+# Folder: C:/dev/MacroLog/out/build/x64-debug/glfw-3.3.8
 
-build glfw-3.3.8\all: phony glfw-3.3.8\src\all glfw-3.3.8\examples\all glfw-3.3.8\tests\all
+build glfw-3.3.8\all: phony glfw-3.3.8\src\all glfw-3.3.8\examples\all glfw-3.3.8\tests\all glfw-3.3.8\docs\all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/dev/Macro/out/build/x64-debug/glfw-3.3.8/examples
+# Folder: C:/dev/MacroLog/out/build/x64-debug/glfw-3.3.8/docs
+
+build glfw-3.3.8\docs\all: phony glfw-3.3.8\docs\docs
+
+# =============================================================================
+
+#############################################
+# Folder: C:/dev/MacroLog/out/build/x64-debug/glfw-3.3.8/examples
 
 build glfw-3.3.8\examples\all: phony glfw-3.3.8\examples\boing.exe glfw-3.3.8\examples\gears.exe glfw-3.3.8\examples\heightmap.exe glfw-3.3.8\examples\offscreen.exe glfw-3.3.8\examples\particles.exe glfw-3.3.8\examples\sharing.exe glfw-3.3.8\examples\simple.exe glfw-3.3.8\examples\splitview.exe glfw-3.3.8\examples\wave.exe
 
 # =============================================================================
 
 #############################################
-# Folder: C:/dev/Macro/out/build/x64-debug/glfw-3.3.8/src
+# Folder: C:/dev/MacroLog/out/build/x64-debug/glfw-3.3.8/src
 
 build glfw-3.3.8\src\all: phony glfw-3.3.8\src\glfw3.lib
 
 # =============================================================================
 
 #############################################
-# Folder: C:/dev/Macro/out/build/x64-debug/glfw-3.3.8/tests
+# Folder: C:/dev/MacroLog/out/build/x64-debug/glfw-3.3.8/tests
 
 build glfw-3.3.8\tests\all: phony glfw-3.3.8\tests\clipboard.exe glfw-3.3.8\tests\events.exe glfw-3.3.8\tests\msaa.exe glfw-3.3.8\tests\glfwinfo.exe glfw-3.3.8\tests\iconify.exe glfw-3.3.8\tests\monitors.exe glfw-3.3.8\tests\reopen.exe glfw-3.3.8\tests\cursor.exe glfw-3.3.8\tests\empty.exe glfw-3.3.8\tests\gamma.exe glfw-3.3.8\tests\icon.exe glfw-3.3.8\tests\inputlag.exe glfw-3.3.8\tests\joysticks.exe glfw-3.3.8\tests\opacity.exe glfw-3.3.8\tests\tearing.exe glfw-3.3.8\tests\threads.exe glfw-3.3.8\tests\timeout.exe glfw-3.3.8\tests\title.exe glfw-3.3.8\tests\triangle-vulkan.exe glfw-3.3.8\tests\windows.exe
 
@@ -2404,14 +2485,14 @@ build glfw-3.3.8\tests\all: phony glfw-3.3.8\tests\clipboard.exe glfw-3.3.8\test
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\BasicConfigVersion-SameMajorVersion.cmake.in C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeDependentOption.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindDoxygen.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindOpenGL.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindThreads.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\GNUInstallDirs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake C$:\dev\Macro\CMakeLists.txt C$:\dev\Macro\glfw-3.3.8\CMakeLists.txt C$:\dev\Macro\glfw-3.3.8\cmake_uninstall.cmake.in C$:\dev\Macro\glfw-3.3.8\examples\CMakeLists.txt C$:\dev\Macro\glfw-3.3.8\src\CMakeLists.txt C$:\dev\Macro\glfw-3.3.8\src\glfw3.pc.in C$:\dev\Macro\glfw-3.3.8\src\glfw3Config.cmake.in C$:\dev\Macro\glfw-3.3.8\src\glfw_config.h.in C$:\dev\Macro\glfw-3.3.8\tests\CMakeLists.txt CMakeCache.txt CMakeFiles\3.27.2-msvc1\CMakeCCompiler.cmake CMakeFiles\3.27.2-msvc1\CMakeCXXCompiler.cmake CMakeFiles\3.27.2-msvc1\CMakeRCCompiler.cmake CMakeFiles\3.27.2-msvc1\CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\BasicConfigVersion-SameMajorVersion.cmake.in C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeDependentOption.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindDoxygen.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindOpenGL.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindThreads.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\GNUInstallDirs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake C$:\dev\MacroLog\CMakeLists.txt C$:\dev\MacroLog\glfw-3.3.8\CMakeLists.txt C$:\dev\MacroLog\glfw-3.3.8\cmake_uninstall.cmake.in C$:\dev\MacroLog\glfw-3.3.8\docs\CMakeLists.txt C$:\dev\MacroLog\glfw-3.3.8\docs\Doxyfile.in C$:\dev\MacroLog\glfw-3.3.8\examples\CMakeLists.txt C$:\dev\MacroLog\glfw-3.3.8\src\CMakeLists.txt C$:\dev\MacroLog\glfw-3.3.8\src\glfw3.pc.in C$:\dev\MacroLog\glfw-3.3.8\src\glfw3Config.cmake.in C$:\dev\MacroLog\glfw-3.3.8\src\glfw_config.h.in C$:\dev\MacroLog\glfw-3.3.8\tests\CMakeLists.txt CMakeCache.txt CMakeFiles\3.27.2-msvc1\CMakeCCompiler.cmake CMakeFiles\3.27.2-msvc1\CMakeCXXCompiler.cmake CMakeFiles\3.27.2-msvc1\CMakeRCCompiler.cmake CMakeFiles\3.27.2-msvc1\CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\BasicConfigVersion-SameMajorVersion.cmake.in C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeDependentOption.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindDoxygen.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindOpenGL.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindThreads.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\GNUInstallDirs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake C$:\dev\Macro\CMakeLists.txt C$:\dev\Macro\glfw-3.3.8\CMakeLists.txt C$:\dev\Macro\glfw-3.3.8\cmake_uninstall.cmake.in C$:\dev\Macro\glfw-3.3.8\examples\CMakeLists.txt C$:\dev\Macro\glfw-3.3.8\src\CMakeLists.txt C$:\dev\Macro\glfw-3.3.8\src\glfw3.pc.in C$:\dev\Macro\glfw-3.3.8\src\glfw3Config.cmake.in C$:\dev\Macro\glfw-3.3.8\src\glfw_config.h.in C$:\dev\Macro\glfw-3.3.8\tests\CMakeLists.txt CMakeCache.txt CMakeFiles\3.27.2-msvc1\CMakeCCompiler.cmake CMakeFiles\3.27.2-msvc1\CMakeCXXCompiler.cmake CMakeFiles\3.27.2-msvc1\CMakeRCCompiler.cmake CMakeFiles\3.27.2-msvc1\CMakeSystem.cmake: phony
+build C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\BasicConfigVersion-SameMajorVersion.cmake.in C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeDependentOption.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindDoxygen.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindOpenGL.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindThreads.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\GNUInstallDirs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake C$:\dev\MacroLog\CMakeLists.txt C$:\dev\MacroLog\glfw-3.3.8\CMakeLists.txt C$:\dev\MacroLog\glfw-3.3.8\cmake_uninstall.cmake.in C$:\dev\MacroLog\glfw-3.3.8\docs\CMakeLists.txt C$:\dev\MacroLog\glfw-3.3.8\docs\Doxyfile.in C$:\dev\MacroLog\glfw-3.3.8\examples\CMakeLists.txt C$:\dev\MacroLog\glfw-3.3.8\src\CMakeLists.txt C$:\dev\MacroLog\glfw-3.3.8\src\glfw3.pc.in C$:\dev\MacroLog\glfw-3.3.8\src\glfw3Config.cmake.in C$:\dev\MacroLog\glfw-3.3.8\src\glfw_config.h.in C$:\dev\MacroLog\glfw-3.3.8\tests\CMakeLists.txt CMakeCache.txt CMakeFiles\3.27.2-msvc1\CMakeCCompiler.cmake CMakeFiles\3.27.2-msvc1\CMakeCXXCompiler.cmake CMakeFiles\3.27.2-msvc1\CMakeRCCompiler.cmake CMakeFiles\3.27.2-msvc1\CMakeSystem.cmake: phony
 
 
 #############################################

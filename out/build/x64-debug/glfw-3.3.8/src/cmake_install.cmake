@@ -1,8 +1,8 @@
-# Install script for directory: C:/dev/Macro/glfw-3.3.8/src
+# Install script for directory: C:/dev/MacroLog/glfw-3.3.8/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/dev/Macro/out/install/x64-debug")
+  set(CMAKE_INSTALL_PREFIX "C:/dev/MacroLog/out/install/x64-debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,6 +33,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/dev/Macro/out/build/x64-debug/glfw-3.3.8/src/glfw3.lib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/dev/MacroLog/out/build/x64-debug/glfw-3.3.8/src/glfw3.lib")
 endif()
 

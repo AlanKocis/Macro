@@ -1,7 +1,7 @@
-prefix=C:/dev/Macro/out/install/x64-debug
+prefix=C:/dev/MacroLog/out/install/x64-debug
 exec_prefix=${prefix}
-includedir=C:/dev/Macro/out/install/x64-debug/include
-libdir=C:/dev/Macro/out/install/x64-debug/lib
+includedir=C:/dev/MacroLog/out/install/x64-debug/include
+libdir=C:/dev/MacroLog/out/install/x64-debug/lib
 
 Name: GLFW
 Description: A multi-platform library for OpenGL, window and input

@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "C:/dev/Macro/out/build/x64-debug/glfw-3.3.8/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"C:/dev/Macro/out/build/x64-debug/glfw-3.3.8/install_manifest.txt\"")
+if (NOT EXISTS "C:/dev/MacroLog/out/build/x64-debug/glfw-3.3.8/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"C:/dev/MacroLog/out/build/x64-debug/glfw-3.3.8/install_manifest.txt\"")
 endif()
 
-file(READ "C:/dev/Macro/out/build/x64-debug/glfw-3.3.8/install_manifest.txt" files)
+file(READ "C:/dev/MacroLog/out/build/x64-debug/glfw-3.3.8/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})
