@@ -8,6 +8,7 @@
 #include <sstream>
 #include <iostream>
 #include <iterator>
+#include <cstdio>
 #include "GLFW/glfw3.h"
 #include "imgui.h"
 #include "imgui_impl_glfw.h"
@@ -90,16 +91,16 @@ namespace app
 
 		for (Day &day : days)
 		{
-			ImGui::TextColored(color, day.date.c_str());
-			for (Entry &food : day.entries)
+			if (ImGui::TreeNode(day.date.c_str()))
 			{
-				ImGui::Text("");
+				for (Entry& food : day.entries)
+				{
 
+					ImGui::Text(food.get_name().c_str());
+					static char foodStr[64];
 
-
-
-
-
+				}
+				ImGui::TreePop();
 			}
 		}
 		ImGui::End();
@@ -125,6 +126,11 @@ namespace app
 			static char name_str[64] = "enter name\0";
 			name_str[63] = '\0';
 			ImGui::Text("Name:");		ImGui::SameLine();	ImGui::InputText("##NameInput", name_str, IM_ARRAYSIZE(name_str));
+			for (int i = 0; i < 63; i++)
+			{
+				if (name_str[i] == ' ')
+					name_str[i] = '_';
+			}
 			ImGui::PopItemWidth();
 			
 			ImGui::PushItemWidth(64);
@@ -135,8 +141,26 @@ namespace app
 			ImGui::SameLine(); ImGui::InputFloat("##ProteinInput", &protein, 0.0F, 0.0F, "%.2f", 0);
 
 			
+//			TODO :: ADD ENTRY BUTTON 
+			if (ImGui::Button("Add", ImVec2(80, 30)))
+			{
+				auto it = days.rbegin();
+				//Entry food()
+				//it->push_entry()
+			}
+			ImGui::SameLine();
 			if (ImGui::Button("Cancel", ImVec2(80, 30)))		{ gate = false; }
 			
+
+
+
+
+
+
+
+
+
+
 		}
 
 
