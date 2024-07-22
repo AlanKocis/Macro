@@ -116,18 +116,25 @@ namespace app
 
 
 		static bool gate = false;
-		if (ImGui::Button("Add Entry", ImVec2(90, 40)))		{gate = true; }
+
+		if (!gate && ImGui::Button("Add Entry", ImVec2(90, 40)))		{gate = true; }
 
 		if (gate)
 		{
-			ImGui::PushItemWidth(64);
-			static char str[64];
-			str[63] = '\0';
-			ImGui::Text("test");	ImGui::SameLine();	ImGui::InputText("##label", str, IM_ARRAYSIZE(str));
+			ImGui::PushItemWidth(128);
+			static char name_str[64] = "enter name\0";
+			name_str[63] = '\0';
+			ImGui::Text("Name:");		ImGui::SameLine();	ImGui::InputText("##NameInput", name_str, IM_ARRAYSIZE(name_str));
 			ImGui::PopItemWidth();
+			
+			ImGui::PushItemWidth(64);
+			static float kcal = 0.0F;
+			ImGui::Text("Kcal:");	ImGui::SameLine();	ImGui::InputFloat("##KcalInput", &kcal, 0.0F, 0.0F, "%.2f", 0);
+			static float protein = 0.0F;
+			ImGui::SameLine();	ImGui::Text("Protein:");
+			ImGui::SameLine(); ImGui::InputFloat("##ProteinInput", &protein, 0.0F, 0.0F, "%.2f", 0);
 
-			ImGui::Text(str);
-
+			
 			if (ImGui::Button("Cancel", ImVec2(80, 30)))		{ gate = false; }
 			
 		}
