@@ -84,45 +84,45 @@ namespace app
 		glfwGetWindowSize(window, &WIDTH, &HEIGHT);
 		ImGui::SetNextWindowSize(ImVec2(WIDTH, HEIGHT / 2));
 		ImGui::SetNextWindowPos(ImVec2(0, 0));
+//		FIRST WINDOW BEGIN
 		ImGui::Begin("1", 0, ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoTitleBar);
 		static ImVec4 color(1, 0, 0, 1);
 		ImGui::TextColored(color, "TEST\n\n");
 
 
-		for (Day &day : days)
+		static int selected_index = 0;
+		if (ImGui::BeginListBox(todays_date_global.c_str(), ImVec2(200, 100)))
 		{
-			if (ImGui::TreeNode(day.date.c_str()))
+			auto it = days.rbegin();
+			for (int i = 0; i < it->entries.size(); i++)
 			{
-				for (Entry& food : day.entries)
+				const bool is_selected = (selected_index == i);
+
+				if (ImGui::Selectable(it->entries[i].get_name().c_str()), is_selected)
 				{
-
-					ImGui::Text(food.get_name().c_str());
-					static char foodStr[64];
-
+					selected_index = i;
 				}
-				ImGui::TreePop();
+
+				if (is_selected)
+				{
+					ImGui::SetItemDefaultFocus();
+				}
+
+
 			}
+
+
+			ImGui::EndListBox();
 		}
-		ImGui::End();
-
-
-
-		ImGui::SetNextWindowSize(ImVec2(WIDTH, HEIGHT / 2));
-		ImGui::SetNextWindowPos(ImVec2(0, HEIGHT / 2));
-
-		ImGui::Begin("2", 0, ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoTitleBar);
-
-		ImGui::Text(todays_date_global.c_str());
-
 
 
 		static bool gate = false;
 
-		if (!gate && ImGui::Button("Add Entry", ImVec2(90, 40)))		{gate = true; }
+		if (!gate && ImGui::Button("Add Entry", ImVec2(90, 40))) { gate = true; }
 
 		if (gate)
 		{
-			ImGui::PushItemWidth(128);
+			ImGui::PushItemWidth(152);
 			static char name_str[64] = "enter name\0";
 			name_str[63] = '\0';
 			ImGui::Text("Name:");		ImGui::SameLine();	ImGui::InputText("##NameInput", name_str, IM_ARRAYSIZE(name_str));
@@ -132,40 +132,79 @@ namespace app
 					name_str[i] = '_';
 			}
 			ImGui::PopItemWidth();
-			
+
+
 			ImGui::PushItemWidth(64);
 			static float kcal = 0.0F;
-			ImGui::Text("Kcal:");	ImGui::SameLine();	ImGui::InputFloat("##KcalInput", &kcal, 0.0F, 0.0F, "%.2f", 0);
+
+			ImGui::Text("Kcal:");
+			ImGui::SameLine();
+			ImGui::PushItemWidth(40);
+			ImGui::InputFloat("##KcalInput", &kcal, 0.0F, 0.0F, "%.2f", 0);
+			ImGui::PopItemWidth();
+
 			static float protein = 0.0F;
 			ImGui::SameLine();	ImGui::Text("Protein:");
-			ImGui::SameLine(); ImGui::InputFloat("##ProteinInput", &protein, 0.0F, 0.0F, "%.2f", 0);
+			ImGui::PushItemWidth(40);
+			ImGui::SameLine();	ImGui::InputFloat("##ProteinInput", &protein, 0.0F, 0.0F, "%.2f", 0);
+			ImGui::PopItemWidth();
 
-			
-//			TODO :: ADD ENTRY BUTTON 
+			static float servings = 1.0F;
+			ImGui::PushItemWidth(30);
+			ImGui::InputFloat("servings", &servings, 0.0F, 0.0F, "%.1f", 0);
+			ImGui::PopItemWidth();
+
+
 			if (ImGui::Button("Add", ImVec2(80, 30)))
 			{
 				auto it = days.rbegin();
-				//Entry food()
-				//it->push_entry()
+				std::string str = name_str;
+				Entry food(str, kcal, protein, servings);
+				it->push_entry(food);
+				gate = false;
 			}
+
 			ImGui::SameLine();
-			if (ImGui::Button("Cancel", ImVec2(80, 30)))		{ gate = false; }
-			
-
-
-
-
-
-
-
+			if (ImGui::Button("Cancel", ImVec2(80, 30))) { gate = false; }
 
 
 
 		}
 
 
-
+//		FIRST WINDOW END
 		ImGui::End();
+//
+
+
+		ImGui::SetNextWindowSize(ImVec2(WIDTH, HEIGHT / 2));
+		ImGui::SetNextWindowPos(ImVec2(0, HEIGHT / 2));
+
+//		SECOND WINDOW BEGIN
+		ImGui::Begin("2", 0, ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoTitleBar);
+//
+
+		for (Day &day : days)
+		{
+			if (ImGui::TreeNode(day.date.c_str()))
+			{
+				for (Entry &food : day.entries)
+				{
+
+					ImGui::Text(food.get_name().c_str());
+					static char foodStr[64];
+
+				}
+				ImGui::TreePop();
+			}
+		}
+
+
+
+//		SECOND WINDOW END
+		ImGui::End();
+
+
 	}
 
 	void run()
