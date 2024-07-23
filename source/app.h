@@ -100,30 +100,31 @@ namespace app
 
 
 
-		static int item_current_idx = 0;
+		static int selected_index = -1;
 		if (ImGui::BeginListBox("1", ImVec2(200, 100)))
 		{
 			for (int i = 0; i < it->entries.size(); i++)
 			{
-				const bool is_selected = (item_current_idx == i);
-				std::string s = it->entries[i].get_name();
-				if (ImGui::Selectable(it->entries[i].get_name().c_str()), is_selected)
+				const bool selected = (i == selected_index);
+				std::string &s = it->entries[i].get_name();;
+				if (ImGui::Selectable(s.c_str(), selected))
 				{
-					item_current_idx = i;
-
-//					___________________________________________________________________________________________________
-//					TODO::HIGH PRIORITY 
-//					ImGui::Selectable won't actually select because of .c_str() every frame (new address)
-//					___________________________________________________________________________________________________
-//					todo:	switch Entry.h from using an std::string to a char[] for its name string so we can just
-// 							use that as the object's ID instead of calling .c_str() every frame.
-// 					___________________________________________________________________________________________________
+					selected_index = i;
 				}
 
-			}
-		
+				if (!selected)
+				{
+					ImGui::SameLine();
+					ImGui::Text("...");
+				}
 
+				if (selected && ImGui::ColorButton("##unique_id", ImVec4(1, 0, 0, 1), 64, ImVec2(20, 20)))
+					selected_index = -1;
+				
+
+			}
 			ImGui::EndListBox();
+
 		}
 
 
@@ -204,9 +205,8 @@ namespace app
 			{
 				for (Entry &food : day.entries)
 				{
-
-					ImGui::Text(food.get_name().c_str());
-					static char foodStr[64];
+					std::string foodName = food.get_name();
+					ImGui::Text(foodName.c_str());
 
 				}
 				ImGui::TreePop();
