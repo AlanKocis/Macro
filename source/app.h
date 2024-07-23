@@ -84,7 +84,7 @@ namespace app
 	{
 		int WIDTH = 0, HEIGHT = 0;
 		glfwGetWindowSize(window, &WIDTH, &HEIGHT);
-		ImGui::SetNextWindowSize(ImVec2(WIDTH, HEIGHT / 2));
+		ImGui::SetNextWindowSize(ImVec2(WIDTH, (HEIGHT / 3) * 2));
 		ImGui::SetNextWindowPos(ImVec2(0, 0));
 		//		FIRST WINDOW BEGIN
 		ImGui::Begin("1", 0, ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoTitleBar);
@@ -93,47 +93,70 @@ namespace app
 		auto it = days.rbegin();
 		std::string appText = std::to_string(it->get_total_calories()) + " Kilocalories eaten";
 		std::string appText2 = std::to_string(it->get_total_protein()) + "g Protein eaten";
-
 		ImGui::TextColored(color, todays_date_global.c_str());
 		ImGui::Text(appText.c_str());
 		ImGui::Text(appText2.c_str());
 
+		static bool gate = false;
+		static bool showExpandAll = true;
 
 
-		static int selected_index = -1;
-		if (ImGui::BeginListBox("1", ImVec2(200, 100)))
+		if (!gate && ImGui::BeginListBox("##listbox", ImVec2(220, 200)))
 		{
 			for (int i = 0; i < it->entries.size(); i++)
 			{
-				const bool selected = (i == selected_index);
-				std::string &s = it->entries[i].get_name();;
-				if (ImGui::Selectable(s.c_str(), selected))
+				Entry *curr_entry = &it->entries[i];
+				std::string &s = curr_entry->get_name();
+				if (ImGui::Selectable(s.c_str(), curr_entry->getGuiBool()))
 				{
-					selected_index = i;
+					it->entries[i].switchGuiBool();
 				}
 
-				if (!selected)
+				if (it->entries[i].getGuiBool())
+				{
+					std::string calStr = "\t" + std::to_string(curr_entry->get_calories()) + " kcal";
+					std::string pStr = "\t" + std::to_string(curr_entry->get_protein()) + "g";
+					ImGui::Text(calStr.c_str());
+					ImGui::Text(pStr.c_str());
+				}
+				else
 				{
 					ImGui::SameLine();
 					ImGui::Text("...");
 				}
-
-				if (selected && ImGui::ColorButton("##unique_id", ImVec4(1, 0, 0, 1), 64, ImVec2(20, 20)))
-					selected_index = -1;
 				
+			
 
 			}
 			ImGui::EndListBox();
 
+			ImGui::SameLine();
+		}
+		
+		if (!gate && showExpandAll && ImGui::Button("expand all", ImVec2(90, 30)))
+		{
+			for (Entry &e : it->entries)
+			{
+				e.setGuiBool(true);
+			}
+
+			showExpandAll = !showExpandAll;
+		}
+
+		if (!gate && !showExpandAll && ImGui::Button("close all", ImVec2(90, 30)))
+		{
+			for (Entry &e : it->entries)
+			{
+				e.setGuiBool(false);
+			}
+			showExpandAll = !showExpandAll;
 		}
 
 
 
 
 
-		static bool gate = false;
-
-		if (!gate && ImGui::Button("Add Entry", ImVec2(90, 40))) { gate = true; }
+		if (!gate && ImGui::Button("Add Entry", ImVec2(90, 30))) { gate = true; }
 
 		if (gate)
 		{
@@ -192,8 +215,8 @@ namespace app
 //
 
 
-		ImGui::SetNextWindowSize(ImVec2(WIDTH, HEIGHT / 2));
-		ImGui::SetNextWindowPos(ImVec2(0, HEIGHT / 2));
+		ImGui::SetNextWindowSize(ImVec2(WIDTH, HEIGHT / 3));
+		ImGui::SetNextWindowPos(ImVec2(0, (HEIGHT / 3) * 2));
 
 //		SECOND WINDOW BEGIN
 		ImGui::Begin("2", 0, ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoTitleBar);
