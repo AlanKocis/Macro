@@ -2,6 +2,7 @@
 #include "FileManager.h"
 #include "Day.h"
 #include "Entry.h"
+#include <string>
 #include <ctime>
 #include <chrono>
 #include <iomanip>
@@ -21,7 +22,7 @@ namespace app
 	const int INIT_HEIGHT = 500, INIT_WIDTH = 400;
 	std::string todays_date_global = "";
 	FileManager& fileManager = FileManager::instance();
-
+	 
 	std::vector<Day> days;
 	
 	void init()
@@ -54,6 +55,7 @@ namespace app
 		ss << std::put_time(&time_data, "%m%d%Y");
 		std::string todays_date;
 		ss >> todays_date;
+		
 		todays_date_global = todays_date;
 
 
@@ -84,36 +86,48 @@ namespace app
 		glfwGetWindowSize(window, &WIDTH, &HEIGHT);
 		ImGui::SetNextWindowSize(ImVec2(WIDTH, HEIGHT / 2));
 		ImGui::SetNextWindowPos(ImVec2(0, 0));
-//		FIRST WINDOW BEGIN
+		//		FIRST WINDOW BEGIN
 		ImGui::Begin("1", 0, ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoTitleBar);
 		static ImVec4 color(1, 0, 0, 1);
-		ImGui::TextColored(color, "TEST\n\n");
+
+		auto it = days.rbegin();
+		std::string appText = std::to_string(it->get_total_calories()) + " Kilocalories eaten";
+		std::string appText2 = std::to_string(it->get_total_protein()) + "g Protein eaten";
+
+		ImGui::TextColored(color, todays_date_global.c_str());
+		ImGui::Text(appText.c_str());
+		ImGui::Text(appText2.c_str());
 
 
-		static int selected_index = 0;
-		if (ImGui::BeginListBox(todays_date_global.c_str(), ImVec2(200, 100)))
+
+		static int item_current_idx = 0;
+		if (ImGui::BeginListBox("1", ImVec2(200, 100)))
 		{
-			auto it = days.rbegin();
 			for (int i = 0; i < it->entries.size(); i++)
 			{
-				const bool is_selected = (selected_index == i);
-
+				const bool is_selected = (item_current_idx == i);
+				std::string s = it->entries[i].get_name();
 				if (ImGui::Selectable(it->entries[i].get_name().c_str()), is_selected)
 				{
-					selected_index = i;
-				}
+					item_current_idx = i;
 
-				if (is_selected)
-				{
-					ImGui::SetItemDefaultFocus();
+//					___________________________________________________________________________________________________
+//					TODO::HIGH PRIORITY 
+//					ImGui::Selectable won't actually select because of .c_str() every frame (new address)
+//					___________________________________________________________________________________________________
+//					todo:	switch Entry.h from using an std::string to a char[] for its name string so we can just
+// 							use that as the object's ID instead of calling .c_str() every frame.
+// 					___________________________________________________________________________________________________
 				}
-
 
 			}
-
+		
 
 			ImGui::EndListBox();
 		}
+
+
+
 
 
 		static bool gate = false;
