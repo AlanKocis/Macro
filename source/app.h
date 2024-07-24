@@ -58,15 +58,25 @@ namespace app
 		
 		todays_date_global = todays_date;
 
-
-//		check end of buffer only to test if application has been opened today
-//		IF NEW DAY:
-		auto it = days.rbegin();
-		if (!(it->date == todays_date))
+//		IF EMPTY LOG (FIRST DAY):
+		if (days.empty())
 		{
+			fileManager.writeFirstDate(todays_date);
 			days.emplace_back(Day(todays_date));
-			fileManager.writeNewDate(todays_date);
 		}
+		else 
+		{
+//		IF NEW DAY:
+			auto it = days.rbegin();
+			if (it->date != todays_date)
+			{
+				days.emplace_back(Day(todays_date));
+				fileManager.writeNewDate(todays_date);
+			}
+		}
+
+
+
 
 //		init imgui
 		IMGUI_CHECKVERSION();

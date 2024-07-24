@@ -80,6 +80,19 @@ void FileManager::writeNewDate(std::string &dateStr)
 	outStream.close();
 }
 
+void FileManager::writeFirstDate(std::string &dateStr)
+{
+	std::ofstream outStream;
+	outStream.open(LOG_FILE_PATH, std::ios_base::app);
+	if (!outStream.is_open())
+	{
+		printf("Fatal error in FileManager.cpp :: couldn't open std::ofstream\n");
+		exit(-1);
+	}
+	outStream << dateStr << ' ';
+	outStream.close();
+}
+
 void FileManager::write_entry(Entry &entry)
 {
 	std::ofstream outStream;

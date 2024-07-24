@@ -27,6 +27,7 @@ private:
 public:
 	static FileManager &instance();
 	void init_buffers(std::vector<Day> &days);
-	void writeNewDate(std::string&dateStr);
+	void writeNewDate(std::string& dateStr);
+	void writeFirstDate(std::string &dateStr);
 	void write_entry(Entry &entry);
 };
