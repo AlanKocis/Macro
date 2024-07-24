@@ -60,10 +60,12 @@ namespace app
 
 
 //		check end of buffer only to test if application has been opened today
+//		IF NEW DAY:
 		auto it = days.rbegin();
 		if (!(it->date == todays_date))
 		{
 			days.emplace_back(Day(todays_date));
+			fileManager.writeNewDate(todays_date);
 		}
 
 //		init imgui
@@ -199,6 +201,7 @@ namespace app
 				std::string str = name_str;
 				Entry food(str, kcal, protein, servings);
 				it->push_entry(food);
+				fileManager.write_entry(food);
 				gate = false;
 			}
 

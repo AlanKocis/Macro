@@ -66,3 +66,29 @@ void FileManager::init_buffers(std::vector<Day> &days)
 		index++;
 	}
 }
+
+void FileManager::writeNewDate(std::string &dateStr)
+{
+	std::ofstream outStream;
+	outStream.open(LOG_FILE_PATH, std::ios_base::app);
+	if (!outStream.is_open())
+	{
+		printf("Fatal error in FileManager.cpp :: couldn't open std::ofstream\n");
+		exit(-1);
+	}
+	outStream << '\n' << dateStr << ' ';
+	outStream.close();
+}
+
+void FileManager::write_entry(Entry &entry)
+{
+	std::ofstream outStream;
+	outStream.open(LOG_FILE_PATH, std::ios_base::app);
+	if (!outStream.is_open())
+	{
+		printf("Fatal error in FileManager.cpp :: couldn't open std::ofstream\n");
+		exit(-2);
+	}
+	outStream << entry.get_name() << ' ' << entry.get_calories() << ' ' << entry.get_protein() << ' ' << entry.get_servings() << ' ';
+	outStream.close();
+}

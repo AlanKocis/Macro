@@ -22,5 +22,6 @@ public:
 	inline void switchGuiBool() { guiBool = !guiBool; }
 	void setGuiBool(bool b) { guiBool = b; }
 	bool getGuiBool() { return guiBool; }
+	
 
 };

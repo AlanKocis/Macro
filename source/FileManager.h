@@ -21,11 +21,12 @@ enum PARSE_MODES
 class FileManager
 {
 private:
-	std::ostringstream oss;
 	std::ifstream fileStream;
 	FileManager();
 	~FileManager();
 public:
 	static FileManager &instance();
 	void init_buffers(std::vector<Day> &days);
+	void writeNewDate(std::string&dateStr);
+	void write_entry(Entry &entry);
 };
