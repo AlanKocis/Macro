@@ -1,6 +1,5 @@
 ﻿#include "app.h"
-#include <iostream>
-#include "Day.h"
+
 int main()
 {
 	app::init();

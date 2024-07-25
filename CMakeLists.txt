@@ -1,11 +1,12 @@
 ﻿cmake_minimum_required(VERSION 3.8)
 project(MacroLog)
 
+
 file(GLOB_RECURSE SOURCE_FILES 
 	${CMAKE_SOURCE_DIR}/source/*.c
 	${CMAKE_SOURCE_DIR}/source/*.cpp
 	${CMAKE_SOURCE_DIR}/imgui/*.cpp
-	${CMAKE_SOURCE_DIR}/imgui/*.c
+	${CMAKE_SOURCE_DIR}/imgui/*.c	
 	${CMAKE_SOURCE_DIR}/imgui/*.hpp
 	${CMAKE_SOURCE_DIR}glad/*.c
 )
@@ -17,6 +18,7 @@ file(GLOB_RECURSE HEADER_FILES
 )
 
 add_executable(${PROJECT_NAME} ${HEADER_FILES} ${SOURCE_FILES})
+
 
 set(OpenGL_GL_PREFERENCE GLVND)
 find_package(OpenGL REQUIRED)
@@ -38,9 +40,11 @@ include_directories(
 # Define the link libraries
 target_link_libraries(${PROJECT_NAME} ${LIBS})
 
+if (CMAKE_BUILD_TYPE STREQUAL "RelWithDebInfo")
+set_target_properties(${PROJECT_NAME} PROPERTIES 
+    LINK_FLAGS "/ENTRY:mainCRTStartup /SUBSYSTEM:WINDOWS")
 
-
-
+endif()
 
 if(MSVC_IDE)
 	# Macro to preserve source files hierarchy in the IDE
