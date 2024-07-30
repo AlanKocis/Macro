@@ -20,7 +20,7 @@ namespace app
 	GLFWwindow *window;
 	bool is_running = true;
 	const int INIT_HEIGHT = 500, INIT_WIDTH = 400;
-	std::string todays_date_global = "";
+	std::string todays_date_formatted = "";
 	FileManager& fileManager = FileManager::instance();
 	 
 	std::vector<Day> days;
@@ -56,7 +56,28 @@ namespace app
 		std::string todays_date;
 		ss >> todays_date;
 		
-		todays_date_global = todays_date;
+//		Formatting string for GUI. [Not for read/write]
+		{
+			if (todays_date.at(0) != '0')
+				todays_date_formatted += todays_date.at(0);
+			todays_date_formatted += todays_date.at(1);
+			todays_date_formatted += '/';
+			if (todays_date.at(2) != '0')
+				todays_date_formatted += todays_date.at(2);
+			todays_date_formatted += todays_date.at(3);
+			todays_date_formatted += '/';
+			todays_date_formatted += todays_date.at(4);
+			todays_date_formatted += todays_date.at(5);
+			todays_date_formatted += todays_date.at(6);
+			todays_date_formatted += todays_date.at(7);
+
+		}
+
+
+
+
+
+	//	todays_date_formatted = todays_date;
 
 //		IF EMPTY LOG (FIRST DAY):
 		if (days.empty())
@@ -103,11 +124,9 @@ namespace app
 		static ImVec4 color(1, 0, 0, 1);
 
 		auto it = days.rbegin();
-		std::string appText = std::to_string(it->get_total_calories()) + " Kilocalories eaten";
-		std::string appText2 = std::to_string(it->get_total_protein()) + "g Protein eaten";
-		ImGui::TextColored(color, todays_date_global.c_str());
-		ImGui::Text(appText.c_str());
-		ImGui::Text(appText2.c_str());
+		ImGui::TextColored(color, todays_date_formatted.c_str());
+		ImGui::Text("%.3f Kilocalories eaten", it->get_total_calories());
+		ImGui::Text("%.3fg of protein eaten", it->get_total_calories());
 
 		static bool gate = false;
 		static bool showExpandAll = true;
@@ -126,15 +145,13 @@ namespace app
 
 				if (it->entries[i].getGuiBool())
 				{
-					std::string calStr = "\t" + std::to_string(curr_entry->get_calories()) + " kcal";
-					std::string pStr = "\t" + std::to_string(curr_entry->get_protein()) + "g";
-					ImGui::Text(calStr.c_str());
-					ImGui::Text(pStr.c_str());
+					ImGui::Text("%.3f kcal", it->entries[i].get_calories());
+					ImGui::Text("%.3fg protein", it->entries[i].get_protein());
 				}
 				else
 				{
 					ImGui::SameLine();
-					ImGui::Text("...");
+					ImGui::Text("(...)");
 				}
 				
 			
